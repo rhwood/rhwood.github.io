@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: MugShot | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/mugshot/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MugShot and Facebook]]></title>
+    <link href="http://rhwood.github.io/blog/2007/04/30/mugshot-and-facebook/"/>
+    <updated>2007-04-30T06:12:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/04/30/mugshot-and-facebook</id>
+    <content type="html"><![CDATA[<p>After deciding that I <a href="/blog/2007/04/30/myspace/">really hate MySpace</a>, I dug out my old <a href="http://mugshot.org/person?who=5n7Fh10HQgRHqk">MugShot account</a> (created in a coffee-deprived what-is-this? moment) and looked through it.</p>
+
+<p>I spent some time simply linking all the other services that I use into MugShot and creating a <a href="http://www.facebook.com/profile.php?id=563380909">Facebook profile</a> and have decided that these are items worth using and maintaining.</p>
+]]></content>
+  </entry>
+  
+</feed>

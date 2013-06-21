@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Journal | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/journal/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bloggering]]></title>
+    <link href="http://rhwood.github.io/blog/2006/09/12/bloggering/"/>
+    <updated>2006-09-12T17:16:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2006/09/12/bloggering</id>
+    <content type="html"><![CDATA[<p>I was granted the opportunity to migrate my journal to the <a href="http://beta.blogger.com">Blogger Beta</a>, and have been spending the afternoon labeling my posts.</p>
+
+<p>I am not sure when I will get the time to make my blog look the way I want it to.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome, welcome]]></title>
+    <link href="http://rhwood.github.io/blog/2005/07/02/welcome-welcome/"/>
+    <updated>2005-07-02T19:52:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2005/07/02/welcome-welcome</id>
+    <content type="html"><![CDATA[<p>This is a new journal for me, and one that is very public. I used to write long letters with some frequency but then just stopped about 5 years ago. I also used to keep a journal and seem to have stopped that about the same time. This journal is an attempt to get back into that groove and maybe to rant a little as well&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>

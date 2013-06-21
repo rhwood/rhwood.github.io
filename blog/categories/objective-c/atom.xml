@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Objective-C | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/objective-c/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Pallet and MacPorts.Framework]]></title>
+    <link href="http://rhwood.github.io/blog/2008/02/21/pallet-and-macports-framework/"/>
+    <updated>2008-02-21T06:01:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/02/21/pallet-and-macports-framework</id>
+    <content type="html"><![CDATA[<p>A brief note on the status of <em>Pallet</em> and the <em>MacPorts.Framework</em>:</p>
+
+<h1>Pallet</h1>
+
+<p><em>Pallet</em> continues to have some user-interface weirdness that I have not really figured out (nor have I spent much time trying to figure it out either) and is dependent on getting the <em>MacPorts.Framework</em> completed</p>
+
+<h1>MacPorts.Framework</h1>
+
+<p>The framework has one two major issues:</p>
+
+<ol>
+<li>It needs to be capable of posting asynchronous notifications from the Tcl Framework to the Objective-C classes that are wrapping the Tcl code. I have found some reference code that may help me write an implementation, but have not begun doing so.</li>
+<li>I am now thinking that I might need to write a MacPorts Application Kit Framework that would provide applications (which should run their user interfaces as the console user, not as root) an API that calls an authenticated helper for certain tasks. This may further push back Pallet development.</li>
+</ol>
+
+
+<p>I have just moved and am starting a new job next week, so I will probably not be picking these tasks up quickly, but if anyone wants to work these issues or projects with me, drop a line.</p>
+]]></content>
+  </entry>
+  
+</feed>

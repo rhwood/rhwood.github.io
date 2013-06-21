@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Outlook | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/outlook/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Inbox Control]]></title>
+    <link href="http://rhwood.github.io/blog/2008/08/21/inbox-control/"/>
+    <updated>2008-08-21T08:31:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2008/08/21/inbox-control</id>
+    <content type="html"><![CDATA[<p>I have been using the <a href="http://www.43folders.com/izero">Inbox 0</a> system to manage my email at work for a couple of months. It&rsquo;s working out mostly, as I find that I sometimes let my Inbox grow again before cleaning it up, and I still have not gone completely though the DMZ folder to determine what needs to be archived and what doesn&rsquo;t.</p>
+
+<p>Prior to using Inbox 0 to manage the inbox, I had been using search filters to control my email, but still found that it wasn&rsquo;t working to well. When I received I forget what version of Mac OS X with really good search engines in the email, and then later got a <a href="http://mail.google.com/">Gmail</a> account, I began to use search folders, and it worked for a while, until the sheer volume of email overwhelmed it.</p>
+
+<p>Also this never worked at work, since neither <a href="http://office.microsoft.com/outlook">Outlook</a> (2003) nor <a href="http://projects.gnome.org/evolution/">Evolution</a> seem to be good at filtering email or searching through inboxes, in my experience.</p>
+]]></content>
+  </entry>
+  
+</feed>

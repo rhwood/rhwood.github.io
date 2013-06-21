@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: VMWare | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/vmware/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Upgrading to Fedora 10]]></title>
+    <link href="http://rhwood.github.io/blog/2008/11/28/upgrading-to-fedora-10/"/>
+    <updated>2008-11-28T05:13:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/11/28/upgrading-to-fedora-10</id>
+    <content type="html"><![CDATA[<p>Yesterday morning I upgraded my work laptop from Fedora 9 to <a href="http://fedoraproject.org/get-fedora">Fedora 10</a>. Other than a couple of issues outlined below, the experience seemed reasonable:</p>
+
+<h4>Issues</h4>
+
+<ul>
+<li>The bootloader (grub) did not upgrade correctly, leaving me at a grub prompt when the computer started. Apparently this is a common issue. The fix was simple in my case:
+
+<ol>
+<li><code>root (hd0,1)</code></li>
+<li><code>setup (hd0,1)</code></li>
+</ol>
+</li>
+<li><p><a href="http://www.vmware.com/products/ws/">VMware Workstation</a> refused to heal from the upgrade. Usually VMware Workstation just heals itself after I update the kernel, but for some reason it refused to heal itself. Again a simple fix:</p>
+
+<ol>
+<li><code>rm /usr/lib/vmware/modules/binary</code></li>
+<li><code>vmware modconfig --console --install-all</code></li>
+</ol>
+</li>
+<li>Immediately after installing Fedora (on only the second day after its release) there were a ridiculous number of updates to be downloaded, so I basically the first thing I did with the system was let it download and install updates for three hours.</li>
+</ul>
+
+
+<h4>References</h4>
+
+<ul>
+<li><p><a href="http://tofu.org/drupal/node/69">Fedora 10 Upgrade Experience | tofu.org</a></p></li>
+<li><p><a href="http://geekdom.wesmo.com/2008/11/14/fedora-10-vmware-workstation-650/">Geekdom » Post Topic » Fedora 10 + VMware Workstation 6.5.0</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[DHCP in VMWare Server]]></title>
+    <link href="http://rhwood.github.io/blog/2008/03/08/dhcp-in-vmware-server/"/>
+    <updated>2008-03-08T07:25:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/03/08/dhcp-in-vmware-server</id>
+    <content type="html"><![CDATA[<p>I need to run a virtual machine on my <a href="/blog/2008/03/08/my-laptop-at-work/">work computer</a> that provides <a href="http://en.wikipedia.org/wiki/DHCP">DHCP</a> services on a host-only network. Unfortunately, <a href="http://vmware.com/products/server/">VMWare Server</a> on <a href="http://en.wikipedia.org/wiki/Linux">Linux</a> does not provide any mechanism for turning its DHCP services off.</p>
+
+<p>Luckily, I found an <a href="http://vmwire.blogspot.com/2008/01/how-to-disable-host-only-networking.html">article</a> that addresses turning DHCP on or off for all host-only networks on the VMWare Server. I commented on that article with a technique for controlling DHCP on a per-network basis for host-only networks. I since have expanded on that with a patch for <em>/usr/lib/vmware/net-services.sh</em> that further refines the controls:</p>
+
+<pre><code>--- net-services.sh 2008-03-06 11:08:41.000000000 -0500
++++ /usr/lib/vmware/net-services.sh 2008-03-06 11:15:27.000000000 -0500
+@@ -694,9 +694,22 @@
+                exitcode=$(($exitcode + $?))
+             elif [ -n "$hostaddr" -a -n "$netmask" ]; then
+                vmware_create_vmnet "$vHubNr"
++  # default to providing DHCP for hostonly networks
++  VMWARE_HOSTONLY_DHCP=yes
++  # VMWARE_HOSTONLY_DHCP can be set in /etc/vmware/services
++  # to turn DHCP on or off in every hostonly vmnet 
++  if [ -f '/etc/vmware/services' ]; then
++   source '/etc/vmware/services'
++  fi
++  # VMWARE_HOSTONLY_DHCP can be set in /etc/vmware/vmnet?/services
++  # to turn DHCP on or off in a specific hostonly vmnet
++  # this setting overrides the global and default settings
++  if [ -f '/etc/vmware/vmnet'"$vHubNr"'/services' ]; then
++   source '/etc/vmware/vmnet'"$vHubNr"'/services'
++  fi
+                vmware_bg_exec 'Host-only networking on /dev/vmnet'"$vHubNr" \
+                   vmware_start_hostonly "$vHubNr" 'vmnet'"$vHubNr" \
+-                  "$hostaddr" "$netmask" 'yes'
++                  "$hostaddr" "$netmask" "$VMWARE_HOSTONLY_DHCP"
+                exitcode=$(($exitcode + $?))
+
+                eval 'nat="$vmdb_answer_VNET_'"$vHubNr"'_NAT"'
+</code></pre>
+
+<p>It is <a href="http://homepage.mac.com/rhwood/software/vmware/net-services.sh.patch">available for download</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Laptop at Work]]></title>
+    <link href="http://rhwood.github.io/blog/2008/03/08/my-laptop-at-work/"/>
+    <updated>2008-03-08T07:23:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/03/08/my-laptop-at-work</id>
+    <content type="html"><![CDATA[<p>I recently began working at <a href="http://www.trustedcs.com">Trusted Computer Solutions</a> (TCS). TCS is (as I understand things) a <a href="http://en.wikipedia.org/wiki/Linux">Linux</a> shop transitioning from a being a <a href="http://www.sun.com/software/solaris/index.jsp">Solaris</a> shop.</p>
+
+<p>But we run <a href="http://www.microsoft.com/windows">Windows</a> on most of our desktop computers.</p>
+
+<p>I received permission to install <a href="http://fedoraproject.org">Fedora</a> on my Laptop as my primary operating system, and quickly set about doing so. So far I have only two significant problems with the computer:
+1. <a href="http://www.vmware.com">VMWare Server</a> is slow when running our Linux systems. I think that we have stripped the OS down to a basic system for our purposes, so its not liking running in the virtual machine.
+2. There is a whole infrastructure in place to support Windows users that is not well documented. (It just works in Windows, but not Linux.)</p>
+]]></content>
+  </entry>
+  
+</feed>

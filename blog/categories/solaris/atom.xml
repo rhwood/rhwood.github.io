@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Solaris | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/solaris/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Laptop at Work]]></title>
+    <link href="http://rhwood.github.io/blog/2008/03/08/my-laptop-at-work/"/>
+    <updated>2008-03-08T07:23:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/03/08/my-laptop-at-work</id>
+    <content type="html"><![CDATA[<p>I recently began working at <a href="http://www.trustedcs.com">Trusted Computer Solutions</a> (TCS). TCS is (as I understand things) a <a href="http://en.wikipedia.org/wiki/Linux">Linux</a> shop transitioning from a being a <a href="http://www.sun.com/software/solaris/index.jsp">Solaris</a> shop.</p>
+
+<p>But we run <a href="http://www.microsoft.com/windows">Windows</a> on most of our desktop computers.</p>
+
+<p>I received permission to install <a href="http://fedoraproject.org">Fedora</a> on my Laptop as my primary operating system, and quickly set about doing so. So far I have only two significant problems with the computer:
+1. <a href="http://www.vmware.com">VMWare Server</a> is slow when running our Linux systems. I think that we have stripped the OS down to a basic system for our purposes, so its not liking running in the virtual machine.
+2. There is a whole infrastructure in place to support Windows users that is not well documented. (It just works in Windows, but not Linux.)</p>
+]]></content>
+  </entry>
+  
+</feed>

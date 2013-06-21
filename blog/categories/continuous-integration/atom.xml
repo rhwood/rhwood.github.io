@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Continuous Integration | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/continuous-integration/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Jenkins Node Daemon on OS X]]></title>
+    <link href="http://rhwood.github.io/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/"/>
+    <updated>2012-11-25T12:11:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2012/11/25/a-jenkins-node-daemon-on-os-x</id>
+    <content type="html"><![CDATA[<p><strong>Update:</strong> Use the <a href="https://github.com/rhwood/jenkins-slave-osx">Jenkins Slave for OS X</a> instead. It&rsquo;s based on these gists and has the benefit of being maintained.</p>
+
+<p>I have been using <a href="http://jenkins-ci.org">Jenkins</a> for <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> (CI) with some Java-based projects, and recently setup Jenkins for CI for a OS X application. For the Java-based projects, running Jenkins on a <a href="http://www.linode.com/?r=b70e8c306162d25af8a47771c9226cdedf99e94a">Linode</a> works well, but the Linode-based Jenkins instance cannot build iOS or OS X applications.</p>
+
+<p>Its easy to setup Jenkins to support <a href="https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds">distributed builds</a> with a OS X system as a slave, provided the master can initiate SSH communications to the slave. If, like me, your Jenkins master cannot initiate a connection with your slave (which is my desktop iMac), it is still trivial to configure the slave to use <a href="https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds#Distributedbuilds-LaunchslaveagentviaJavaWebStart">Java Web Start</a> (JNLP).</p>
+
+<p>I generally followed <a href="http://eclipsesource.com/blogs/author/hstaudacher/">Holger Staudacher&rsquo;s</a> <a href="http://eclipsesource.com/blogs/2012/06/01/ups-and-downs-with-continuous-integration-for-ios-apps-jenkins-xcode-cobertura-and-testflight/">post on the subject</a>. However, he was frustrated by his inability to configure his Mac to automatically start the JNLP connection.</p>
+
+<p>The following script launches the Jenkins slave service via Java Web Start after downloading the slave.jar file (thereby ensuring that the slave.jar is always the current version):</p>
+
+<p><div><script src='https://gist.github.com/4136130.js?file=slave.jnlp.sh'></script>
+<noscript><pre><code>#!/bin/bash
+
+JENKINS_SLAVE=`hostname -s | tr '[:upper:]' '[:lower:]'`
+JENKINS_MASTER=http://jenkins
+JENKINS_PORT=''
+
+if [ -f /etc/jenkins.node.conf ]; then
+    source /etc/jenkins.node.conf
+fi
+
+while [ $# -gt 0 ]; do
+        case $1 in
+                --node=*)
+                        JENKINS_SLAVE=${1#*=}
+                        ;;
+                --master=*)
+                        JENKINS_MASTER=${1#*=}
+                        ;;
+                --jnlp-port=*)
+                        JENKINS_PORT=&quot;:${1#*=}&quot;
+                        ;;
+        esac
+        shift
+done
+
+echo &quot;Getting slave.jar from ${JENKINS_MASTER}&quot;
+RESULT=-1
+while [ $RESULT -ne 0 ]; do
+        curl --url ${JENKINS_MASTER}/jnlpJars/slave.jar -o /var/lib/jenkins/slave.jar
+        RESULT=$?
+        if [ $RESULT -ne 0 ]; then
+                sleep 10
+        fi
+done
+JENKINS_JNLP_URL=${JENKINS_MASTER}${JENKINS_PORT}/computer/${JENKINS_SLAVE}/slave-agent.jnlp
+echo &quot;Launching slave process at ${JENKINS_JNLP_URL}&quot;
+java -jar /var/lib/jenkins/slave.jar -jnlpUrl ${JENKINS_JNLP_URL}
+</code></pre></noscript></div>
+</p>
+
+<p>Launchd (the OS X launch manager) can launch this file using the following property list:</p>
+
+<p><div><script src='https://gist.github.com/4136130.js?file=org.jenkins-ci.slave.jnlp.plist'></script>
+<noscript><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-/Apple/DTD PLIST 1.0/EN&quot; &quot;http:/www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+	&lt;key&gt;Label&lt;/key&gt;
+	&lt;string&gt;org.jenkins-ci.slave.jnlp&lt;/string&gt;
+	&lt;key&gt;ProgramArguments&lt;/key&gt;
+	&lt;array&gt;
+		&lt;string&gt;/var/lib/jenkins/slave.jnlp.sh&lt;/string&gt;
+		&lt;string&gt;--master=http://jenkins.example.com&lt;/string&gt;
+	&lt;/array&gt;
+	&lt;key&gt;KeepAlive&lt;/key&gt;
+	&lt;true/&gt;
+	&lt;key&gt;RunAtLoad&lt;/key&gt;
+	&lt;true/&gt;
+	&lt;key&gt;UserName&lt;/key&gt;
+	&lt;string&gt;jenkins&lt;/string&gt;
+	&lt;key&gt;WorkingDirectory&lt;/key&gt;
+	&lt;string&gt;/var/lib/jenkins&lt;/string&gt;
+	&lt;key&gt;StandardInPath&lt;/key&gt;
+	&lt;string&gt;/dev/null&lt;/string&gt;
+	&lt;key&gt;StandardErrorPath&lt;/key&gt;
+	&lt;string&gt;/var/log/jenkins/jenkins.log&lt;/string&gt;
+	&lt;key&gt;StandardOutPath&lt;/key&gt;
+	&lt;string&gt;/var/log/jenkins/jenkins.log&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;</code></pre></noscript></div>
+</p>
+
+<p>I have a simple script that can install these files for use by the user <em>jenkins</em>:</p>
+
+<p><div><script src='https://gist.github.com/4136130.js?file=install.sh'></script>
+<noscript><pre><code>#!/bin/sh
+# create jenkins group
+NEXT_GID=$((`dscl /Local/Default list /Groups gid | awk '{ print $2 }' | sort -n | grep -v ^[5-9] | tail -n1` + 1))
+sudo dscl /Local/Default create /Groups/jenkins
+sudo dscl /Local/Default create /Groups/jenkins PrimaryGroupID $NEXT_GID
+sudo dscl /Local/Default create /Groups/jenkins Password \*
+sudo dscl /Local/Default create /Groups/jenkins RealName 'Jenkins Node Service'
+# create jenkins user
+NEXT_UID=$((`dscl /Local/Default list /Users uid | awk '{ print $2 }' | sort -n | grep -v ^[5-9] | tail -n1` + 1))
+sudo dscl /Local/Default create /Users/jenkins
+sudo dscl /Local/Default create /Users/jenkins UniqueID $NEXT_UID
+sudo dscl /Local/Default create /Users/jenkins PrimaryGroupID $NEXT_GID
+sudo dscl /Local/Default create /Users/jenkins UserShell /usr/bin/false
+sudo dscl /Local/Default create /Users/jenkins NFSHomeDirectory /var/lib/jenkins
+sudo dscl /Local/Default create /Users/jenkins Password \*
+sudo dseditgroup -o edit -a jenkins -t user jenkins
+# download the LaunchDaemon
+sudo curl --url https://raw.github.com/gist/4136130/d3c9d7275ce78e050d8594037a2d509652a766e5/org.jenkins-ci.slave.jnlp.plist -o /Library/LaunchDaemons/org.jenkins-ci.slave.jnlp.plist
+# create the jenkins home dir
+sudo mkdir /var/lib/jenkins
+# download the jenkins JNLP slave script
+sudo curl --url https://raw.github.com/gist/4136130/2553c4cec9bc7ed5557359a22c6c1b61028afa40/slave.jnlp.sh -o /var/lib/jenkins/slave.jnlp.sh
+sudo chown -R jenkins:wheel /var/lib/jenkins
+sudo chmod 755 /var/lib/jenkins/slave.jnlp.sh
+# create a logging space
+sudo mkdir /var/log/jenkins
+sudo chown jenkins:wheel /var/log/jenkins
+# remember to edit the LaunchDaemon
+echo &quot;IMPORTANT:&quot;
+echo &quot;edit /Library/LaunchDaemons/org.jenkins-ci.slave.jnlp.plist to use the correct master&quot;</code></pre></noscript></div>
+</p>
+
+<p>It can be run by copying the following command into a Terminal window:</p>
+
+<pre><code>bash &lt;(curl -L https://raw.github.com/gist/4136130/81ee34ac6dd01e4f81e9b69650041c64f2e09678/install.sh)
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

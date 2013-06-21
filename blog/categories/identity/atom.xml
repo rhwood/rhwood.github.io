@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Identity | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/identity/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Three Things I Want From Google]]></title>
+    <link href="http://rhwood.github.io/blog/2007/07/10/three-things-i-want-from-google/"/>
+    <updated>2007-07-10T04:26:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/07/10/three-things-i-want-from-google</id>
+    <content type="html"><![CDATA[<p>A Single Identity</p>
+
+<pre><code>I use some [Google](http://www.google.com/) services: [Blogger](http://www.blogger.com/), [History](http://www.google.com/history/), [Gmail](http://mail.google.com/), [Picasa](http://picasaweb.google.com/), [Reader](http://reader.google.com/), etc... and have accounts with a few other services. Although all these services share authentication and account information (which is as it should be), they do not share profiles, my name, my photograph, and I just want to be able to add details to my identity, change my photograph once, in any Google service, and have it change throughout the entire set of Google services.
+</code></pre>
+
+<p>Social Bookmarks</p>
+
+<pre><code>I want the Google Bookmarks to be social in the same manner that [del.icio.us](http://del.icio.us/) or [Intelink Bookmarks](https://www.intelink.gov/bookmarks/) are.
+</code></pre>
+
+<p>Common Labels</p>
+
+<pre><code>The Google services all support labeling (aka tagging) items, but seem to store the label sets privately within the service. When I label an item in Reader, I would like to be able to see that label when I am writing about it in Blogger, see what I have bookmarked with that label, etc.
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

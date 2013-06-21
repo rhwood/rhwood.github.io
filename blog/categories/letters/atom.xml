@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Letters | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/letters/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A letter to an old friend:]]></title>
+    <link href="http://rhwood.github.io/blog/2009/04/09/a-letter-to-an-old-friend/"/>
+    <updated>2009-04-09T22:08:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2009/04/09/a-letter-to-an-old-friend</id>
+    <content type="html"><![CDATA[<p>I remember being very angry at what I felt was an unnecessarily self congratulatory tone of <em>Unzipped</em>, the movie about Isaac Mizrahi. I remember that you seemed somewhat shocked by that.</p>
+
+<p>I now know that I was wrong wrong wrong about that&mdash;celebrating one&rsquo;s life is, well, a celebration worth having; failing to celebrate one&rsquo;s life and one&rsquo;s feeling of accomplishment is a wrong thing to do.</p>
+]]></content>
+  </entry>
+  
+</feed>

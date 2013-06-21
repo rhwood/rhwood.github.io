@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Work | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/work/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Upgraded Fedora]]></title>
+    <link href="http://rhwood.github.io/blog/2008/05/17/upgraded-fedora/"/>
+    <updated>2008-05-17T05:45:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2008/05/17/upgraded-fedora</id>
+    <content type="html"><![CDATA[<p>I just upgraded my laptop at work to Fedora 9, and I really like the new package manager, but otherwise am ambivalent about the upgrade. I recommend that upgraders wait a couple of weeks for some bugs to get ironed out first.</p>
+
+<p>X just would not work at first&mdash;I had to use system-display-manager or system-display-configure (I&rsquo;m at home on my Mac) to correct the display drivers before that would work, and other services were breaking until I updated the system with the latest online only packages are restarted everything a couple of times.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[DHCP in VMWare Server]]></title>
+    <link href="http://rhwood.github.io/blog/2008/03/08/dhcp-in-vmware-server/"/>
+    <updated>2008-03-08T07:25:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/03/08/dhcp-in-vmware-server</id>
+    <content type="html"><![CDATA[<p>I need to run a virtual machine on my <a href="/blog/2008/03/08/my-laptop-at-work/">work computer</a> that provides <a href="http://en.wikipedia.org/wiki/DHCP">DHCP</a> services on a host-only network. Unfortunately, <a href="http://vmware.com/products/server/">VMWare Server</a> on <a href="http://en.wikipedia.org/wiki/Linux">Linux</a> does not provide any mechanism for turning its DHCP services off.</p>
+
+<p>Luckily, I found an <a href="http://vmwire.blogspot.com/2008/01/how-to-disable-host-only-networking.html">article</a> that addresses turning DHCP on or off for all host-only networks on the VMWare Server. I commented on that article with a technique for controlling DHCP on a per-network basis for host-only networks. I since have expanded on that with a patch for <em>/usr/lib/vmware/net-services.sh</em> that further refines the controls:</p>
+
+<pre><code>--- net-services.sh 2008-03-06 11:08:41.000000000 -0500
++++ /usr/lib/vmware/net-services.sh 2008-03-06 11:15:27.000000000 -0500
+@@ -694,9 +694,22 @@
+                exitcode=$(($exitcode + $?))
+             elif [ -n "$hostaddr" -a -n "$netmask" ]; then
+                vmware_create_vmnet "$vHubNr"
++  # default to providing DHCP for hostonly networks
++  VMWARE_HOSTONLY_DHCP=yes
++  # VMWARE_HOSTONLY_DHCP can be set in /etc/vmware/services
++  # to turn DHCP on or off in every hostonly vmnet 
++  if [ -f '/etc/vmware/services' ]; then
++   source '/etc/vmware/services'
++  fi
++  # VMWARE_HOSTONLY_DHCP can be set in /etc/vmware/vmnet?/services
++  # to turn DHCP on or off in a specific hostonly vmnet
++  # this setting overrides the global and default settings
++  if [ -f '/etc/vmware/vmnet'"$vHubNr"'/services' ]; then
++   source '/etc/vmware/vmnet'"$vHubNr"'/services'
++  fi
+                vmware_bg_exec 'Host-only networking on /dev/vmnet'"$vHubNr" \
+                   vmware_start_hostonly "$vHubNr" 'vmnet'"$vHubNr" \
+-                  "$hostaddr" "$netmask" 'yes'
++                  "$hostaddr" "$netmask" "$VMWARE_HOSTONLY_DHCP"
+                exitcode=$(($exitcode + $?))
+
+                eval 'nat="$vmdb_answer_VNET_'"$vHubNr"'_NAT"'
+</code></pre>
+
+<p>It is <a href="http://homepage.mac.com/rhwood/software/vmware/net-services.sh.patch">available for download</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Laptop at Work]]></title>
+    <link href="http://rhwood.github.io/blog/2008/03/08/my-laptop-at-work/"/>
+    <updated>2008-03-08T07:23:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/03/08/my-laptop-at-work</id>
+    <content type="html"><![CDATA[<p>I recently began working at <a href="http://www.trustedcs.com">Trusted Computer Solutions</a> (TCS). TCS is (as I understand things) a <a href="http://en.wikipedia.org/wiki/Linux">Linux</a> shop transitioning from a being a <a href="http://www.sun.com/software/solaris/index.jsp">Solaris</a> shop.</p>
+
+<p>But we run <a href="http://www.microsoft.com/windows">Windows</a> on most of our desktop computers.</p>
+
+<p>I received permission to install <a href="http://fedoraproject.org">Fedora</a> on my Laptop as my primary operating system, and quickly set about doing so. So far I have only two significant problems with the computer:
+1. <a href="http://www.vmware.com">VMWare Server</a> is slow when running our Linux systems. I think that we have stripped the OS down to a basic system for our purposes, so its not liking running in the virtual machine.
+2. There is a whole infrastructure in place to support Windows users that is not well documented. (It just works in Windows, but not Linux.)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Short]]></title>
+    <link href="http://rhwood.github.io/blog/2007/09/30/getting-short/"/>
+    <updated>2007-09-30T06:14:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/09/30/getting-short</id>
+    <content type="html"><![CDATA[<p>[googleapps domain=&ldquo;spreadsheets&rdquo; dir=&ldquo;pub&rdquo; query=&ldquo;key=pXT1NE0qatrjGoaxTWMRidw&amp;output=html&amp;gid=0&amp;single=true&amp;widget=true&rdquo; width=&ldquo;500&rdquo; height=&ldquo;300&rdquo; /]</p>
+
+<p>I am &ldquo;getting short&rdquo; or nearing the end of my time in service in the Army.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nasty Nasty Scare]]></title>
+    <link href="http://rhwood.github.io/blog/2007/05/19/nasty-nasty-scare/"/>
+    <updated>2007-05-19T21:35:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/05/19/nasty-nasty-scare</id>
+    <content type="html"><![CDATA[<p>The night before last, Friday morning at about 0100 hours actually, I went to the emergency room with chest pains. While it turns out that it was not a heart failure or problem, my doctor is not sure what caused the pains.</p>
+
+<p>At the time, I had been suffering from intense diarrhea for a few days, and was somewhat dehydrated. They pumped about 2.5 liters of IV into me during my early morning visit to the ER.</p>
+
+<p>My doctor does allow for the possibility that simple stress could have caused the pains, but he can only really diagnose stress by negative elimination&hellip;</p>
+
+<p>Either way, I&rsquo;m recovering rapidly now, but will have to learn how to vent stress in less harmful ways.</p>
+]]></content>
+  </entry>
+  
+</feed>

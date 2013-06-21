@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Gimp on Mac OS X without X11 from MacPorts Redux - Shy Ramblings</title>
+  <meta name="author" content="Randall Wood">
+
+  
+  <meta name="description" content="A few months ago, I wrote about using Gimp on Mac OS X without X11 from MacPorts. Since then I&rsquo;ve upgraded my systems to Mac OS X Leopard ( &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rhwood.github.io/blog/2008/06/09/gimp-on-mac-os-x-without-x11-from-macports-redux">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Shy Ramblings" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Shy Ramblings</a></h1>
+  
+    <h2>The mutterings of a shy and geeky dad, father, and citizen.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rhwood.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Gimp on Mac OS X Without X11 From MacPorts Redux</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-06-09T04:23:00-04:00" pubdate data-updated="true">Jun 9<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>A few months ago, I wrote about using <a href="http://www.gimp.org/">Gimp</a> on <a href="http://www.apple.com/macosx">Mac OS X</a> without <a href="http://en.wikipedia.org/wiki/X11">X11</a> from <a href="http://www.macports.org/">MacPorts</a>. Since then I&rsquo;ve upgraded my systems to Mac OS X Leopard (version 10.5), and experienced the <a href="http://trac.macports.org/ticket/15209">font rendering problem</a> myself. That problem is now fixed.</p>
+
+<p>If you need to get an existing installation of gimp working, do the following:</p>
+
+<pre><code>sudo port sync
+sudo port upgrade cairo
+sudo port -f uninstall pango
+sudo port clean --all pango
+sudo port install pango +no_x11
+</code></pre>
+
+<p>If you are installing Gimp for the first time, the following should work:</p>
+
+<pre><code>sudo port clean --all
+sudo port install cairo +quartz +no_x11
+sudo port install poppler +quartz
+sudo port install gail +quartz
+sudo port install gimp2
+sudo port install gimp +quartz
+</code></pre>
+
+<p><strong>UPDATE:</strong> Check out the MacPorts users mailing lists (<a href="http://lists.macosforge.org/mailman/listinfo/macports-users/">http://lists.macosforge.org/mailman/listinfo/macports-users/</a>) and trac database (<a href="http://trac.macports.org">http://trac.macports.org</a>) for assistance if this does not work for you.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Randall Wood</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-06-09T04:23:00-04:00" pubdate data-updated="true">Jun 9<span>th</span>, 2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/gnome/'>GNOME</a>, <a class='category' href='/blog/categories/gimp/'>Gimp</a>, <a class='category' href='/blog/categories/mac-os-x/'>Mac OS X</a>, <a class='category' href='/blog/categories/macports/'>MacPorts</a>, <a class='category' href='/blog/categories/x11/'>X11</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rhwood.github.io/blog/2008/06/09/gimp-on-mac-os-x-without-x11-from-macports-redux/" data-via="" data-counturl="http://rhwood.github.io/blog/2008/06/09/gimp-on-mac-os-x-without-x11-from-macports-redux/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2008/06/07/macports-search/" title="Previous Post: MacPorts Search">&laquo; MacPorts Search</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2008/08/02/off-the-wall/" title="Next Post: Off the Wall">Off the Wall &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">A Jenkins Node Daemon on OS X</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/08/28/writing-a-throwaway-app/">Writing a Throwaway App</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/12/14/what-matters-now/">What Matters Now</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/12/13/san-diego/">San Diego</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/05/06/microsofts-killer-application/">Microsoft's Killer Application</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/rhwood">@rhwood</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'rhwood',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus googleplus-hidden">
+  <h1>
+    <a href="https://plus.google.com/118002200127747260318?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Randall Wood -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

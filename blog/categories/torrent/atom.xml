@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Torrent | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/torrent/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Transmission Goodness]]></title>
+    <link href="http://rhwood.github.io/blog/2008/05/29/transmission-goodness/"/>
+    <updated>2008-05-29T05:17:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2008/05/29/transmission-goodness</id>
+    <content type="html"><![CDATA[<p>I used <a href="http://www.transmissionbt.com/">Transmission</a> on my iMac to download <a href="http://www.fedoraproject.org/">Fedora</a> so I could install it on my work computer and on an older PowerBook I have. I have been serving it up for the last 36 hours or so as well. Here&rsquo;s a screenshot: <a href="http://shyramblings.files.wordpress.com/2008/05/transmission1.png"><img src="http://shyramblings.files.wordpress.com/2008/05/transmission1.png?w=300" alt="" /></a>
+At least I pushed out more data than I consumed. Its a minor contribution, but  a contribution none-the-less.
+I will probably stop the push when Mac OS X 10.5.3 finishes downloading and requires me to restart the iMac, as this will allow me to bring the machine down at night to save power, and to aggressively use other power saving features and timeouts.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Google Desktop | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/google-desktop/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google Applications]]></title>
+    <link href="http://rhwood.github.io/blog/2008/01/06/google-applications/"/>
+    <updated>2008-01-06T06:54:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/01/06/google-applications</id>
+    <content type="html"><![CDATA[<p><a href="http://shyramblings.files.wordpress.com/2008/01/currentstate.png"><img src="http://shyramblings.files.wordpress.com/2008/01/currentstate.png?w=300" alt="" /></a><a href="http://google.com/">Google</a> applications on <a href="http://www.apple.com/macosx">Mac OS X</a> are installed by default either in the /Applications folder or a subfolder of /Applications (see the current state to the right).</p>
+
+<p>I have every Google application installed:</p>
+
+<p><a href="http://desktop.google.com/mac/">Google Desktop</a></p>
+
+<pre><code>Its actually two applications, Google Desktop (a search tool integrating searches on the computer and the internet) and Google Gadgets (allowing widgets that work on the google.com pages to be displayed in the Dashboard) installed in the folder /Applications/Google Desktop.
+</code></pre>
+
+<p><a href="http://earth.google.com/">Google Earth</a></p>
+
+<pre><code>Its installed in /Applications. Unlike most of the Google applications, it is a complex application in its own right.
+</code></pre>
+
+<p><a href="http://toolbar.google.com/gmail-helper/notifier_mac.html">Google Notifier</a></p>
+
+<pre><code>This application places notifiers for GMail and the Google Calendar in the menu bar, and once running is accessed exclusively through the menu bar. Once a user decides to use it, it can be set to automatically start when the user logs in through its preferences window.
+</code></pre>
+
+<p><a href="http://sketchup.google.com/">Google Sketchup</a></p>
+
+<pre><code>This is a modeling application. For some reason it is installed in a versioned folder that contains nothing but the application.
+</code></pre>
+
+<p>Google Updater</p>
+
+<pre><code>The tool that manages all of the Google applications. This tool installs, updates, and removes the other Google applications.
+</code></pre>
+
+<p><a href="http://picasa.google.com/web/mac_tools.html">Picasa Web Albums Uploader</a></p>
+
+<pre><code>An application for importing photos into the [Picasa web albums](http://picasaweb.google.com/). I use the [iPhoto](http://www.apple.com/iphoto) plugin that it installs. (The application is not shown in the listings.)
+</code></pre>
+
+<p><a href="http://shyramblings.files.wordpress.com/2008/01/desiredstate2.png"><img src="http://shyramblings.files.wordpress.com/2008/01/desiredstate2.png?w=300" alt="" /></a> I want the Google Updater to install all of the applications that run as services on the computer, or are utilities for maintaining the computer, in the folder /Applications/Google Applications (or some similar name).</p>
+
+<p>I don&rsquo;t know if this just some irritation of mine that I have too many applications on my computer or not, but I just don&rsquo;t like the current state of affairs.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google Desktop for Mac]]></title>
+    <link href="http://rhwood.github.io/blog/2007/04/26/google-desktop-for-mac/"/>
+    <updated>2007-04-26T05:37:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/04/26/google-desktop-for-mac</id>
+    <content type="html"><![CDATA[<p>I read the announcement of the update to the earlier brought-my-machine-to-its-knees version and decided to try it again.</p>
+
+<p>Apparently, <a href="http://www.apple.com/safari">Safari</a> does not like the <a href="http://desktop.google.com/mac/">Google Desktop for Mac</a> installation link. After several tries, I had to use <a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=118911&amp;t=45">Firefox</a> to download it.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: wedding | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/wedding/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Gone!]]></title>
+    <link href="http://rhwood.github.io/blog/2007/05/25/gone/"/>
+    <updated>2007-05-25T06:07:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/05/25/gone</id>
+    <content type="html"><![CDATA[<p>Yesterday I rode my bicycle from Chris Greene Lake to home after work, and somewhere along the ride my wedding band disappeared.</p>
+
+<p>I rode along Earlysville Rd and then down Hydralic road to my apartment complex.</p>
+
+<p>Other than loosing the ring, it was a nice ride.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Old Photos]]></title>
+    <link href="http://rhwood.github.io/blog/2007/04/22/old-photos/"/>
+    <updated>2007-04-22T14:51:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/04/22/old-photos</id>
+    <content type="html"><![CDATA[<p><a href="http://picasaweb.google.com/randall.h.wood/OurWedding"><img src="http://lh3.google.com/image/randall.h.wood/RiushEB8ieE/AAAAAAAAAkM/FWYfWgGteeE/s160-c/OurWedding.jpg" alt="" /></a></p>
+
+<p><a href="http://picasaweb.google.com/randall.h.wood/OurWedding">Our Wedding</a></p>
+
+<p>Today I uploaded the official photos from our wedding. These photos are about 6 years old now, but I am moving them from my <a href="http://www.mac.com">.Mac</a> account to <a href="http://picasaweb.google.com">Picasa Web Albums</a> to free space up from my remote backups and to consolidate all my public photos in one place.</p>
+
+<p>Incidentally, I have more than one <a href="http://picasaweb.google.com/randall.h.wood">public gallery</a> at Picasa.</p>
+]]></content>
+  </entry>
+  
+</feed>

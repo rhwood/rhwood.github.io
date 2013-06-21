@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Intelink | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/intelink/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Delicious!]]></title>
+    <link href="http://rhwood.github.io/blog/2008/01/18/delicious/"/>
+    <updated>2008-01-18T06:18:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/01/18/delicious</id>
+    <content type="html"><![CDATA[<p>I have been using tag|Connect (an <a href="http://en.wikipedia.org/wiki/Intelink">Intelink</a> <a href="http://en.wikipedia.org/wiki/Social_bookmarking">social bookmarking</a> service) at work, and have come to rely on it for link sharing and discovery. As a result, I began using <a href="http://del.icio.us/">del.icio.us</a> to mark places that I discover at home that might be of interest at work and visa-versa. I&rsquo;ve been using del.icio.us for over a year now, but have just now imported all my bookmarks from <a href="http://www.apple.com/safari">Safari</a>.</p>
+
+<p>As a result, I now have a large number of bookmarks (the number jumped from 34 to 338), most of which are not shared (that seems to be how imported bookmarks are handled). I&rsquo;m now in the slow process of discovering what bookmarks I&rsquo;ve not used in a long time or were provided on my computer and of editing and sharing them&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>

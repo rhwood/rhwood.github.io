@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Social Software | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/social-software/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Delicious!]]></title>
+    <link href="http://rhwood.github.io/blog/2008/01/18/delicious/"/>
+    <updated>2008-01-18T06:18:00-05:00</updated>
+    <id>http://rhwood.github.io/blog/2008/01/18/delicious</id>
+    <content type="html"><![CDATA[<p>I have been using tag|Connect (an <a href="http://en.wikipedia.org/wiki/Intelink">Intelink</a> <a href="http://en.wikipedia.org/wiki/Social_bookmarking">social bookmarking</a> service) at work, and have come to rely on it for link sharing and discovery. As a result, I began using <a href="http://del.icio.us/">del.icio.us</a> to mark places that I discover at home that might be of interest at work and visa-versa. I&rsquo;ve been using del.icio.us for over a year now, but have just now imported all my bookmarks from <a href="http://www.apple.com/safari">Safari</a>.</p>
+
+<p>As a result, I now have a large number of bookmarks (the number jumped from 34 to 338), most of which are not shared (that seems to be how imported bookmarks are handled). I&rsquo;m now in the slow process of discovering what bookmarks I&rsquo;ve not used in a long time or were provided on my computer and of editing and sharing them&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Three Things I Want From Google]]></title>
+    <link href="http://rhwood.github.io/blog/2007/07/10/three-things-i-want-from-google/"/>
+    <updated>2007-07-10T04:26:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/07/10/three-things-i-want-from-google</id>
+    <content type="html"><![CDATA[<p>A Single Identity</p>
+
+<pre><code>I use some [Google](http://www.google.com/) services: [Blogger](http://www.blogger.com/), [History](http://www.google.com/history/), [Gmail](http://mail.google.com/), [Picasa](http://picasaweb.google.com/), [Reader](http://reader.google.com/), etc... and have accounts with a few other services. Although all these services share authentication and account information (which is as it should be), they do not share profiles, my name, my photograph, and I just want to be able to add details to my identity, change my photograph once, in any Google service, and have it change throughout the entire set of Google services.
+</code></pre>
+
+<p>Social Bookmarks</p>
+
+<pre><code>I want the Google Bookmarks to be social in the same manner that [del.icio.us](http://del.icio.us/) or [Intelink Bookmarks](https://www.intelink.gov/bookmarks/) are.
+</code></pre>
+
+<p>Common Labels</p>
+
+<pre><code>The Google services all support labeling (aka tagging) items, but seem to store the label sets privately within the service. When I label an item in Reader, I would like to be able to see that label when I am writing about it in Blogger, see what I have bookmarked with that label, etc.
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MugShot and Facebook]]></title>
+    <link href="http://rhwood.github.io/blog/2007/04/30/mugshot-and-facebook/"/>
+    <updated>2007-04-30T06:12:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/04/30/mugshot-and-facebook</id>
+    <content type="html"><![CDATA[<p>After deciding that I <a href="/blog/2007/04/30/myspace/">really hate MySpace</a>, I dug out my old <a href="http://mugshot.org/person?who=5n7Fh10HQgRHqk">MugShot account</a> (created in a coffee-deprived what-is-this? moment) and looked through it.</p>
+
+<p>I spent some time simply linking all the other services that I use into MugShot and creating a <a href="http://www.facebook.com/profile.php?id=563380909">Facebook profile</a> and have decided that these are items worth using and maintaining.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[@^#%&*^% MySpace!]]></title>
+    <link href="http://rhwood.github.io/blog/2007/04/30/myspace/"/>
+    <updated>2007-04-30T05:49:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2007/04/30/myspace</id>
+    <content type="html"><![CDATA[<p>I hate <a href="http://www.myspace.com">MySpace</a>. But not enough to be passionate about it. Just enough to do what I have to to minimally maintain a site that points people to tools that I do use.</p>
+
+<p>About a year ago, I was trying to lookup an old classmate who I knew to be a MySpace user. So I created a MySpace account so I could get an email address. Or tried to create an account. The MySpace software just crapped out with meaningless error message halfway through the initial registration process, leaving me with an account that exists, but can&rsquo;t be logged into. MySpace&rsquo;s technical support people were all like totally unhelpful, spitting out canned messages that seemed like they matched keywords describing my problem.</p>
+
+<p>So I then created a second MySpace account, using a different email address that I had access to, and it worked, and I got the email addresses I wanted and forgot about it.</p>
+
+<p>Until last week, when a young soldier I work with was all like &ldquo;You need to try this MySpace thing&hellip;&rdquo;</p>
+
+<p>And then the next day (Thursday or Friday, I forget which) was all like &ldquo;You need to work on your profile&hellip;&rdquo;</p>
+
+<p>So this weekend I worked on my profile.</p>
+
+<p>I swear, for about two days after I edited profile information (relationship?, education?) from &ldquo;No Answer&rdquo; to &ldquo;Married&rdquo; and &ldquo;College Graduate&rdquo; every add was for single women looking for fast and loose sexual relationships (I&rsquo;m guessing these were targetted to the fact that I&rsquo;m male) and I keep getting &ldquo;Freind requests&rdquo; from (apparently) young women who like sex and to party and nude photography and a profile that is a big link I guess is to some paid sex site.</p>
+
+<p>Grrr&hellip;..</p>
+]]></content>
+  </entry>
+  
+</feed>

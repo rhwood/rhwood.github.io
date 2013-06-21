@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>A Jenkins Node Daemon on OS X - Shy Ramblings</title>
+  <meta name="author" content="Randall Wood">
+
+  
+  <meta name="description" content="Update: Use the Jenkins Slave for OS X instead. It&rsquo;s based on these gists and has the benefit of being maintained. I have been using Jenkins &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rhwood.github.io/blog/2012/11/25/a-jenkins-node-daemon-on-os-x">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Shy Ramblings" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Shy Ramblings</a></h1>
+  
+    <h2>The mutterings of a shy and geeky dad, father, and citizen.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rhwood.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">A Jenkins Node Daemon on OS X</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-25T12:11:00-05:00" pubdate data-updated="true">Nov 25<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>Update:</strong> Use the <a href="https://github.com/rhwood/jenkins-slave-osx">Jenkins Slave for OS X</a> instead. It&rsquo;s based on these gists and has the benefit of being maintained.</p>
+
+<p>I have been using <a href="http://jenkins-ci.org">Jenkins</a> for <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> (CI) with some Java-based projects, and recently setup Jenkins for CI for a OS X application. For the Java-based projects, running Jenkins on a <a href="http://www.linode.com/?r=b70e8c306162d25af8a47771c9226cdedf99e94a">Linode</a> works well, but the Linode-based Jenkins instance cannot build iOS or OS X applications.</p>
+
+<p>Its easy to setup Jenkins to support <a href="https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds">distributed builds</a> with a OS X system as a slave, provided the master can initiate SSH communications to the slave. If, like me, your Jenkins master cannot initiate a connection with your slave (which is my desktop iMac), it is still trivial to configure the slave to use <a href="https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds#Distributedbuilds-LaunchslaveagentviaJavaWebStart">Java Web Start</a> (JNLP).</p>
+
+<p>I generally followed <a href="http://eclipsesource.com/blogs/author/hstaudacher/">Holger Staudacher&rsquo;s</a> <a href="http://eclipsesource.com/blogs/2012/06/01/ups-and-downs-with-continuous-integration-for-ios-apps-jenkins-xcode-cobertura-and-testflight/">post on the subject</a>. However, he was frustrated by his inability to configure his Mac to automatically start the JNLP connection.</p>
+
+<p>The following script launches the Jenkins slave service via Java Web Start after downloading the slave.jar file (thereby ensuring that the slave.jar is always the current version):</p>
+
+<div><script src='https://gist.github.com/4136130.js?file=slave.jnlp.sh'></script>
+<noscript><pre><code>#!/bin/bash
+
+JENKINS_SLAVE=`hostname -s | tr '[:upper:]' '[:lower:]'`
+JENKINS_MASTER=http://jenkins
+JENKINS_PORT=''
+
+if [ -f /etc/jenkins.node.conf ]; then
+    source /etc/jenkins.node.conf
+fi
+
+while [ $# -gt 0 ]; do
+        case $1 in
+                --node=*)
+                        JENKINS_SLAVE=${1#*=}
+                        ;;
+                --master=*)
+                        JENKINS_MASTER=${1#*=}
+                        ;;
+                --jnlp-port=*)
+                        JENKINS_PORT=&quot;:${1#*=}&quot;
+                        ;;
+        esac
+        shift
+done
+
+echo &quot;Getting slave.jar from ${JENKINS_MASTER}&quot;
+RESULT=-1
+while [ $RESULT -ne 0 ]; do
+        curl --url ${JENKINS_MASTER}/jnlpJars/slave.jar -o /var/lib/jenkins/slave.jar
+        RESULT=$?
+        if [ $RESULT -ne 0 ]; then
+                sleep 10
+        fi
+done
+JENKINS_JNLP_URL=${JENKINS_MASTER}${JENKINS_PORT}/computer/${JENKINS_SLAVE}/slave-agent.jnlp
+echo &quot;Launching slave process at ${JENKINS_JNLP_URL}&quot;
+java -jar /var/lib/jenkins/slave.jar -jnlpUrl ${JENKINS_JNLP_URL}
+</code></pre></noscript></div>
+
+
+<p>Launchd (the OS X launch manager) can launch this file using the following property list:</p>
+
+<div><script src='https://gist.github.com/4136130.js?file=org.jenkins-ci.slave.jnlp.plist'></script>
+<noscript><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-/Apple/DTD PLIST 1.0/EN&quot; &quot;http:/www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+    &lt;key&gt;Label&lt;/key&gt;
+    &lt;string&gt;org.jenkins-ci.slave.jnlp&lt;/string&gt;
+    &lt;key&gt;ProgramArguments&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;/var/lib/jenkins/slave.jnlp.sh&lt;/string&gt;
+        &lt;string&gt;--master=http://jenkins.example.com&lt;/string&gt;
+    &lt;/array&gt;
+    &lt;key&gt;KeepAlive&lt;/key&gt;
+    &lt;true/&gt;
+    &lt;key&gt;RunAtLoad&lt;/key&gt;
+    &lt;true/&gt;
+    &lt;key&gt;UserName&lt;/key&gt;
+    &lt;string&gt;jenkins&lt;/string&gt;
+    &lt;key&gt;WorkingDirectory&lt;/key&gt;
+    &lt;string&gt;/var/lib/jenkins&lt;/string&gt;
+    &lt;key&gt;StandardInPath&lt;/key&gt;
+    &lt;string&gt;/dev/null&lt;/string&gt;
+    &lt;key&gt;StandardErrorPath&lt;/key&gt;
+    &lt;string&gt;/var/log/jenkins/jenkins.log&lt;/string&gt;
+    &lt;key&gt;StandardOutPath&lt;/key&gt;
+    &lt;string&gt;/var/log/jenkins/jenkins.log&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;</code></pre></noscript></div>
+
+
+<p>I have a simple script that can install these files for use by the user <em>jenkins</em>:</p>
+
+<div><script src='https://gist.github.com/4136130.js?file=install.sh'></script>
+<noscript><pre><code>#!/bin/sh
+# create jenkins group
+NEXT_GID=$((`dscl /Local/Default list /Groups gid | awk '{ print $2 }' | sort -n | grep -v ^[5-9] | tail -n1` + 1))
+sudo dscl /Local/Default create /Groups/jenkins
+sudo dscl /Local/Default create /Groups/jenkins PrimaryGroupID $NEXT_GID
+sudo dscl /Local/Default create /Groups/jenkins Password \*
+sudo dscl /Local/Default create /Groups/jenkins RealName 'Jenkins Node Service'
+# create jenkins user
+NEXT_UID=$((`dscl /Local/Default list /Users uid | awk '{ print $2 }' | sort -n | grep -v ^[5-9] | tail -n1` + 1))
+sudo dscl /Local/Default create /Users/jenkins
+sudo dscl /Local/Default create /Users/jenkins UniqueID $NEXT_UID
+sudo dscl /Local/Default create /Users/jenkins PrimaryGroupID $NEXT_GID
+sudo dscl /Local/Default create /Users/jenkins UserShell /usr/bin/false
+sudo dscl /Local/Default create /Users/jenkins NFSHomeDirectory /var/lib/jenkins
+sudo dscl /Local/Default create /Users/jenkins Password \*
+sudo dseditgroup -o edit -a jenkins -t user jenkins
+# download the LaunchDaemon
+sudo curl --url https://raw.github.com/gist/4136130/d3c9d7275ce78e050d8594037a2d509652a766e5/org.jenkins-ci.slave.jnlp.plist -o /Library/LaunchDaemons/org.jenkins-ci.slave.jnlp.plist
+# create the jenkins home dir
+sudo mkdir /var/lib/jenkins
+# download the jenkins JNLP slave script
+sudo curl --url https://raw.github.com/gist/4136130/2553c4cec9bc7ed5557359a22c6c1b61028afa40/slave.jnlp.sh -o /var/lib/jenkins/slave.jnlp.sh
+sudo chown -R jenkins:wheel /var/lib/jenkins
+sudo chmod 755 /var/lib/jenkins/slave.jnlp.sh
+# create a logging space
+sudo mkdir /var/log/jenkins
+sudo chown jenkins:wheel /var/log/jenkins
+# remember to edit the LaunchDaemon
+echo &quot;IMPORTANT:&quot;
+echo &quot;edit /Library/LaunchDaemons/org.jenkins-ci.slave.jnlp.plist to use the correct master&quot;</code></pre></noscript></div>
+
+
+<p>It can be run by copying the following command into a Terminal window:</p>
+
+<pre><code>bash &lt;(curl -L https://raw.github.com/gist/4136130/81ee34ac6dd01e4f81e9b69650041c64f2e09678/install.sh)
+</code></pre>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Randall Wood</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-25T12:11:00-05:00" pubdate data-updated="true">Nov 25<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/continuous-integration/'>Continuous Integration</a>, <a class='category' href='/blog/categories/development/'>Development</a>, <a class='category' href='/blog/categories/jenkins/'>Jenkins</a>, <a class='category' href='/blog/categories/os-x/'>OS X</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rhwood.github.io/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/" data-via="" data-counturl="http://rhwood.github.io/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/08/28/writing-a-throwaway-app/" title="Previous Post: Writing a Throwaway App">&laquo; Writing a Throwaway App</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">A Jenkins Node Daemon on OS X</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/08/28/writing-a-throwaway-app/">Writing a Throwaway App</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/12/14/what-matters-now/">What Matters Now</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/12/13/san-diego/">San Diego</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/05/06/microsofts-killer-application/">Microsoft's Killer Application</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/rhwood">@rhwood</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'rhwood',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus googleplus-hidden">
+  <h1>
+    <a href="https://plus.google.com/118002200127747260318?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Randall Wood -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

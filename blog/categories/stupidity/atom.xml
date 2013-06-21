@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Stupidity | Shy Ramblings]]></title>
+  <link href="http://rhwood.github.io/blog/categories/stupidity/atom.xml" rel="self"/>
+  <link href="http://rhwood.github.io/"/>
+  <updated>2013-06-21T06:43:14-04:00</updated>
+  <id>http://rhwood.github.io/</id>
+  <author>
+    <name><![CDATA[Randall Wood]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Stupid Little Facebook Applications]]></title>
+    <link href="http://rhwood.github.io/blog/2008/06/06/stupid-little-facebook-applications/"/>
+    <updated>2008-06-06T05:34:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2008/06/06/stupid-little-facebook-applications</id>
+    <content type="html"><![CDATA[<p>I discovered today that a Facebook application that I had used as an amusement had been changed so that it spammed almost every one on my Friends list. Grr. Stupid stupid stupid addictive little activities site.</p>
+]]></content>
+  </entry>
+  
+</feed>
