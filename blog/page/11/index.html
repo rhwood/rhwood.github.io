@@ -9,7 +9,8 @@
   <meta name="author" content="Randall Wood">
 
   
-  <meta name="description" content="This weekend past I attended the wedding of my wife&rsquo;s step brother, one Brian by name. Augusta, my daughter participated. She was the flower &hellip;">
+  <meta name="description" content="Some DarwinPorts happenings: gnome-keyring-manager
+Added the gnome-keyring-manager package to the DarwinPorts ports collection, but have not got it &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +66,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/03/13/darwinports-happenings/">DarwinPorts Happenings.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-03-13T12:25:00-05:00" pubdate data-updated="true">Mar 13<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Some DarwinPorts happenings:</p>
+
+<p><strong>gnome-keyring-manager</strong>
+Added the gnome-keyring-manager package to the DarwinPorts ports collection, but have not got it to work. It sees the gnome-keyring-daemon, but can&rsquo;t talk to it. I hope this is not a broken dbus issue.</p>
+
+<p><strong>dbus</strong>
+Am experimenting with dbus 0.61 on Mac OS X with GNOME and DarwinPorts. I have no clue how I would go about making sure that the Mac OS X user does not wind up spamming his session with dbus daemons, since AFAIK OS X has no easy mechanism for foreign per-user-session daemons to be launched so that all applications can see them.</p>
+
+<p>I am going through my monthly installation of the gnome meta-port on a clean machine. It is not going as smoothly as I had hoped. Need to learn how to really debug TCL.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -436,52 +481,6 @@ Yesterday Judge Dee woke me by knocking things off the headboards at about 0300.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2005/10/01/gnome-on-darwinports/">GNOME on DarwinPorts</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2005-10-01T09:12:00-04:00" pubdate data-updated="true">Oct 1<span>st</span>, 2005</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was nominated to be a commiter on the DarwinPorts project due to the number of ports that I have submitted upgrades for. Almost every port I have submitted for an upgrade has been a port from the GNOME project.</p>
-
-<p>For the most part, what I do should be all-but-completely automateable. At least for packages that are distributed by the GNOME project from <a href="http://ftp.gnome.org">ftp.gnome.org</a> or one of its mirrors.</p>
-
-<p>If I can simply change the port version and checksum (and sometimes its source location) and then verify that it installs and runs (mostly) correctly, I submit the patches to update the port. Otherwise I simply note that the port is out-of-date and sometimes manage to badger someone else into getting the update working.</p>
-
-<p>That really is the limit of my skills.</p>
-
-<p>But other DarwinPorts users have found my doing just that to be so useful that they think I should have (shudder) write access to the CVS servers maintaining the ports database.</p>
-
-<p>I wonder if I should accept&hellip;</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/12/">&larr; Older</a>
@@ -499,6 +498,10 @@ Yesterday Judge Dee woke me by knocking things off the headboards at about 0300.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/06/22/jenkins-slave-for-os-x/">Jenkins Slave for OS X</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">A Jenkins Node Daemon on OS X</a>
       </li>
     
@@ -512,10 +515,6 @@ Yesterday Judge Dee woke me by knocking things off the headboards at about 0300.
     
       <li class="post">
         <a href="/blog/2009/12/13/san-diego/">San Diego</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/05/06/microsofts-killer-application/">Microsoft&#8217;s Killer Application</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Development | Shy Ramblings]]></title>
   <link href="http://rhwood.github.io/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://rhwood.github.io/"/>
-  <updated>2013-06-21T06:47:39-04:00</updated>
+  <updated>2013-06-22T06:01:27-04:00</updated>
   <id>http://rhwood.github.io/</id>
   <author>
     <name><![CDATA[Randall Wood]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Jenkins Slave for OS X]]></title>
+    <link href="http://rhwood.github.io/blog/2013/06/22/jenkins-slave-for-os-x/"/>
+    <updated>2013-06-22T05:50:00-04:00</updated>
+    <id>http://rhwood.github.io/blog/2013/06/22/jenkins-slave-for-os-x</id>
+    <content type="html"><![CDATA[<p>After <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">writing about some scripts I wrote</a> to allow <a href="http://jenkins-ci.org/">Jenkins</a> running on a <a href="http://www.linode.com/?r=b70e8c306162d25af8a47771c9226cdedf99e94a">Linode</a> to schedule builds on my iMac, I continued to tweak those scripts until I realized that I could not maintain them in a <a href="https://help.github.com/articles/creating-gists">gist</a>. The updated scripts are <a href="https://github.com/rhwood/jenkins-slave-osx">on GitHub</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Jenkins Node Daemon on OS X]]></title>

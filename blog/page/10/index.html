@@ -9,7 +9,7 @@
   <meta name="author" content="Randall Wood">
 
   
-  <meta name="description" content="My Powerbook&rsquo;s hard drive, not three days after a complete checkup at the Short Pump Genuis Bar just failed. At the hardware level no less. I &hellip;">
+  <meta name="description" content="My auto-status tool for the GNOME packages in DarwinPorts broke because GNOME&rsquo;s MD5 hashsum list for the official packages for 2.14.2 are &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +65,44 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/06/03/changes-in-gnome-bindings/">Changes in GNOME Bindings&#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-03T06:26:00-04:00" pubdate data-updated="true">Jun 3<span>rd</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>My auto-status tool for the GNOME packages in DarwinPorts broke because GNOME&rsquo;s MD5 hashsum list for the official packages for 2.14.2 are different than for prior releases. Until I handle the change in my tool, the reporting is going to indicate that many of the binding packages are either broken or not ported at all when they do, in fact, work perfectly well.</p>
+
+<p>Grr.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -479,50 +517,6 @@ Getafix:/opt/local/lib/gtk-2.0/2.4.0/loaders root# gdk-pixbuf-query-loaders *.so
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2006/03/13/darwinports-happenings/">DarwinPorts Happenings.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-03-13T12:25:00-05:00" pubdate data-updated="true">Mar 13<span>th</span>, 2006</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Some DarwinPorts happenings:</p>
-
-<p><strong>gnome-keyring-manager</strong>
-Added the gnome-keyring-manager package to the DarwinPorts ports collection, but have not got it to work. It sees the gnome-keyring-daemon, but can&rsquo;t talk to it. I hope this is not a broken dbus issue.</p>
-
-<p><strong>dbus</strong>
-Am experimenting with dbus 0.61 on Mac OS X with GNOME and DarwinPorts. I have no clue how I would go about making sure that the Mac OS X user does not wind up spamming his session with dbus daemons, since AFAIK OS X has no easy mechanism for foreign per-user-session daemons to be launched so that all applications can see them.</p>
-
-<p>I am going through my monthly installation of the gnome meta-port on a clean machine. It is not going as smoothly as I had hoped. Need to learn how to really debug TCL.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/11/">&larr; Older</a>
@@ -540,6 +534,10 @@ Am experimenting with dbus 0.61 on Mac OS X with GNOME and DarwinPorts. I have n
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/06/22/jenkins-slave-for-os-x/">Jenkins Slave for OS X</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">A Jenkins Node Daemon on OS X</a>
       </li>
     
@@ -553,10 +551,6 @@ Am experimenting with dbus 0.61 on Mac OS X with GNOME and DarwinPorts. I have n
     
       <li class="post">
         <a href="/blog/2009/12/13/san-diego/">San Diego</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/05/06/microsofts-killer-application/">Microsoft&#8217;s Killer Application</a>
       </li>
     
   </ul>

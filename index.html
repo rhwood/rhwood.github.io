@@ -9,7 +9,7 @@
   <meta name="author" content="Randall Wood">
 
   
-  <meta name="description" content="Update: Use Jenkins Slave for OS X instead. It&rsquo;s based on these gists and has the benefit of being maintained. I have been using Jenkins for &hellip;">
+  <meta name="description" content="After writing about some scripts I wrote to allow Jenkins running on a Linode to schedule builds on my iMac, I continued to tweak those scripts until &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +65,42 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/22/jenkins-slave-for-os-x/">Jenkins Slave for OS X</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-22T05:50:00-04:00" pubdate data-updated="true">Jun 22<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>After <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">writing about some scripts I wrote</a> to allow <a href="http://jenkins-ci.org/">Jenkins</a> running on a <a href="http://www.linode.com/?r=b70e8c306162d25af8a47771c9226cdedf99e94a">Linode</a> to schedule builds on my iMac, I continued to tweak those scripts until I realized that I could not maintain them in a <a href="https://help.github.com/articles/creating-gists">gist</a>. The updated scripts are <a href="https://github.com/rhwood/jenkins-slave-osx">on GitHub</a>.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -553,71 +589,6 @@ echo &quot;edit /Library/LaunchDaemons/org.jenkins-ci.slave.jnlp.plist to use th
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2008/11/28/upgrading-to-fedora-10/">Upgrading to Fedora 10</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-11-28T05:13:00-05:00" pubdate data-updated="true">Nov 28<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yesterday morning I upgraded my work laptop from Fedora 9 to <a href="http://fedoraproject.org/get-fedora">Fedora 10</a>. Other than a couple of issues outlined below, the experience seemed reasonable:</p>
-
-<h4>Issues</h4>
-
-<ul>
-<li>The bootloader (grub) did not upgrade correctly, leaving me at a grub prompt when the computer started. Apparently this is a common issue. The fix was simple in my case:
-
-<ol>
-<li><code>root (hd0,1)</code></li>
-<li><code>setup (hd0,1)</code></li>
-</ol>
-</li>
-<li><p><a href="http://www.vmware.com/products/ws/">VMware Workstation</a> refused to heal from the upgrade. Usually VMware Workstation just heals itself after I update the kernel, but for some reason it refused to heal itself. Again a simple fix:</p>
-
-<ol>
-<li><code>rm /usr/lib/vmware/modules/binary</code></li>
-<li><code>vmware modconfig --console --install-all</code></li>
-</ol>
-</li>
-<li>Immediately after installing Fedora (on only the second day after its release) there were a ridiculous number of updates to be downloaded, so I basically the first thing I did with the system was let it download and install updates for three hours.</li>
-</ul>
-
-
-<h4>References</h4>
-
-<ul>
-<li><p><a href="http://tofu.org/drupal/node/69">Fedora 10 Upgrade Experience | tofu.org</a></p></li>
-<li><p><a href="http://geekdom.wesmo.com/2008/11/14/fedora-10-vmware-workstation-650/">Geekdom » Post Topic » Fedora 10 + VMware Workstation 6.5.0</a></p></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -633,6 +604,10 @@ echo &quot;edit /Library/LaunchDaemons/org.jenkins-ci.slave.jnlp.plist to use th
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/06/22/jenkins-slave-for-os-x/">Jenkins Slave for OS X</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">A Jenkins Node Daemon on OS X</a>
       </li>
     
@@ -646,10 +621,6 @@ echo &quot;edit /Library/LaunchDaemons/org.jenkins-ci.slave.jnlp.plist to use th
     
       <li class="post">
         <a href="/blog/2009/12/13/san-diego/">San Diego</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/05/06/microsofts-killer-application/">Microsoft&#8217;s Killer Application</a>
       </li>
     
   </ul>

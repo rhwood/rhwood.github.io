@@ -9,7 +9,7 @@
   <meta name="author" content="Randall Wood">
 
   
-  <meta name="description" content="All I want is my GNOME tools to work on Mac OS X. It would be really cool if they ran as Aqua applications, but I&rsquo;ll settle for using them in &hellip;">
+  <meta name="description" content="I was nominated to be a commiter on the DarwinPorts project due to the number of ports that I have submitted upgrades for. Almost every port I have &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +65,52 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2005/10/01/gnome-on-darwinports/">GNOME on DarwinPorts</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2005-10-01T09:12:00-04:00" pubdate data-updated="true">Oct 1<span>st</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was nominated to be a commiter on the DarwinPorts project due to the number of ports that I have submitted upgrades for. Almost every port I have submitted for an upgrade has been a port from the GNOME project.</p>
+
+<p>For the most part, what I do should be all-but-completely automateable. At least for packages that are distributed by the GNOME project from <a href="http://ftp.gnome.org">ftp.gnome.org</a> or one of its mirrors.</p>
+
+<p>If I can simply change the port version and checksum (and sometimes its source location) and then verify that it installs and runs (mostly) correctly, I submit the patches to update the port. Otherwise I simply note that the port is out-of-date and sometimes manage to badger someone else into getting the update working.</p>
+
+<p>That really is the limit of my skills.</p>
+
+<p>But other DarwinPorts users have found my doing just that to be so useful that they think I should have (shudder) write access to the CVS servers maintaining the ports database.</p>
+
+<p>I wonder if I should accept&hellip;</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -455,72 +501,6 @@ By graphical user interface, I mean pretty much anything that responds to any us
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2005/07/23/static-serversdynamic-pages/">Static servers/Dynamic Pages</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2005-07-23T22:13:00-04:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2005</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Any developer who has worked the web knows that different browsers render content differently. I remember back in the day working to make sure that things rendered with pretty pictures in Netscape, degraded nicely in Mosaic, and worked flawlessly in Lynx (Netscape 1 was released while I was in college and I remember taking a course on using and developing for the internet and showing the Professor this wonderful new tool called the web&hellip;but that&rsquo;s a story for a different time).</p>
-
-<p>In any event, I wanted to display some content that is platform or browser specific, not in the sense that some browsers support x subset of some standard while others support y subset of the same standard, but in the sense that I only want display a &ldquo;Get Firefox&rdquo; button when the page is not viewed using <a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=118911&amp;t=80">Firefox</a>.</p>
-
-<p>This journal loads the code to handle this need, it&rsquo;s just that it requires 230 lines of code and three extra file loads (I have all my javascript code that I used loaded from separate files instead of imbedded in the pages to be a good network citizen). Most of the code is the browser detection code, which I simply lifted wholesale without modification from the <a href="http://www.mozilla.org">Mozilla Foundation</a>. They don&rsquo;t recommend using it of course; there are far better ways to test for working plug-ins or javascript capabilities. The other two files a couple of functions that abstract the process of creating a link with a random image and the code that contains a list of images, one of which is picked at random, to display.</p>
-
-<p>Here is the code I wrote:</p>
-
-<pre><code>function randomElementFromArray(theArray) {
-        return theArray[Math.round(Math.random() * theArray.length - 1)];
-}
-
-function anchorWithRandomImage(anchor, images, altText) {
-        return ('&lt;a href="' + anchor + '"&gt;&lt;img alt="' + altText + '" title="' + 
-altText + '" src="' + randomElementFromArray(images) + '" /&gt;&lt;/a&gt;');
-}
-
-function getFirefox() {
-        var buttons = new Array(5);
-        buttons[0] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/trust.gif";
-        buttons[1] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/rediscover.gif";
-        buttons[2] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/take.gif";
-        buttons[3] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/get.gif";
-        buttons[4] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/safer.gif";
-        if (!isIE3Mac &amp;&amp; (is.ie || is.opera)) {
-                document.writeln(anchorWithRandomImage('http://www.spreadfirefox.com/?q=affiliates&amp;id=118911&amp;t=45', buttons, 'Get Firefox!'));
-        }
-}
-</code></pre>
-
-<p>I&rsquo;m pretty heavy into abstraction, so it could be combined into one function, but there it is. The code to create the &ldquo;is&rdquo; object used for browser detection was boosted from the <a href="http://www.mozilla.org/docs/web-developer/sniffer/browser_type_oo.html">Mozilla sniffer code</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/13/">&larr; Older</a>
@@ -538,6 +518,10 @@ function getFirefox() {
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/06/22/jenkins-slave-for-os-x/">Jenkins Slave for OS X</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/11/25/a-jenkins-node-daemon-on-os-x/">A Jenkins Node Daemon on OS X</a>
       </li>
     
@@ -551,10 +535,6 @@ function getFirefox() {
     
       <li class="post">
         <a href="/blog/2009/12/13/san-diego/">San Diego</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2009/05/06/microsofts-killer-application/">Microsoft&#8217;s Killer Application</a>
       </li>
     
   </ul>
