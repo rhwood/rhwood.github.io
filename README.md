@@ -1,4 +1,4 @@
 rhwood.github.io
 ================
 
-My personal site, powered by Octopress
+My personal site, merely a redirection to a tumblr.
