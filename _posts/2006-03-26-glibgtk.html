@@ -1,0 +1,21 @@
+---
+layout: post
+title: glib/gtk
+date: '2006-03-26T00:00:00-05:00'
+tags:
+- macports
+tumblr_url: https://randallwood.com/post/171050468730/glibgtk
+---
+<p>Successfully upgraded glib and gtk to the GNOME 2.14.0 speced versions, albeit running GNOME 2.12.3 speced everything else.</p>
+
+<p>The upgrade process was not as smooth as it should of/could of been:</p>
+
+<p>Had to deactivte librsvg since that port is having some troubles with the new glib/gtk, causing the gdk-pixbuf.loaders file to not be built. I don&rsquo;t know anymore than that at the moment.</p>
+
+<p>After installing the new gtk, I had to run the following:</p>
+
+<pre><code>Getafix:/opt/local/lib/gtk-2.0/2.4.0/loaders rhwood$ sudo -s
+Getafix:/opt/local/lib/gtk-2.0/2.4.0/loaders root# gdk-pixbuf-query-loaders *.so &gt; /opt/local/etc/gtk-2.0/gdk-pixbuf.loaders
+</code></pre>
+
+<p>Next step is to build and test the orbit2, libbonobo, and gconf ports.</p>

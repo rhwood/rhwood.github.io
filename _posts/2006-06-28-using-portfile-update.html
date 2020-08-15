@@ -1,0 +1,15 @@
+---
+layout: post
+title: Using portfile-update
+date: '2006-06-28T00:00:00-04:00'
+tags:
+- macports
+tumblr_url: https://randallwood.com/post/171246821685/using-portfile-update
+---
+<p>About 6 months ago, I threw together a script to help me automate the process of updating a Portfile for a package from <a href="http://www.gnome.org">GNOME</a> ftp servers. I called the script gport and wrote it in <a href="http://php.net">PHP</a> simply because I knew that language.</p>
+
+<p>I have been using that script to maintain the GNOME ports for the <a href="http://www.darwinports.org">DarwinPorts</a> project, thinking all the while that it might be useful if it was more generalized, tweaking it and adding some features during this time.</p>
+
+<p>I usually used the script with the <code>-o</code> flag so that its output would scroll past in Console.app, and sometimes with the <code>-k</code> flag so that I could return the output log after the script had successfully updated the port. (By default it deletes a log if the update was successful, but keeps the log if it fails. This has allowed me to scan my copy of the CVS repository when using <a href="http://www.sente.ch/software/cvl/">CVL</a> for update failures, as CVL flags files not in CVS with a blue star.)</p>
+
+<p>This past weekend, I rewrote the script to be a little more robust, and to update any Portfile (although automatic version determination only works for GNOME FTP server-based ports) and renamed it to be a little more meaningful.</p>
