@@ -3,7 +3,7 @@ layout: post
 title: Jenkins Slave for OS X
 date: '2013-06-22T00:00:00-04:00'
 tags: []
-tumblr_url: https://randallwood.com/post/64952583530/jenkins-slave-for-os-x
+redirect_from: /post/64952583530/jenkins-slave-for-os-x
 ---
 After [writing about some scripts I wrote]({% post_url 2012-11-25-a-jenkins-node-daemon-on-os-x %}) to allow [Jenkins](http://jenkins-ci.org/) running on a [Linode](http://www.linode.com/?r=b70e8c306162d25af8a47771c9226cdedf99e94a) to schedule builds on my iMac, I continued to tweak those scripts until I realized that I could not maintain them in a [gist](https://help.github.com/articles/creating-gists). The updated scripts are [on GitHub](https://github.com/rhwood/jenkins-slave-osx).
 

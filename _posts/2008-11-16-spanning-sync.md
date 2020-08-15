@@ -8,7 +8,7 @@ tags:
 - shameless commerce
 - single copy
 - spanning sync
-tumblr_url: https://randallwood.com/post/170889389465/spanning-sync
+redirect_from: /post/170889389465/spanning-sync
 ---
 
 _**Update:** As of June 2013, Spanning Sync was overcome by events (changes in OS X and Google made it obsolete) and the developer ceased supporting it._

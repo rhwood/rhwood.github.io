@@ -6,7 +6,7 @@ tags:
 - brio
 - family
 - wooden train
-tumblr_url: https://randallwood.com/post/171247904775/little-black-bridge
+redirect_from: /post/171247904775/little-black-bridge
 ---
 ![Little Black Bridge](/assets/2007-01-28-little-black-bridge.jpeg)
 
