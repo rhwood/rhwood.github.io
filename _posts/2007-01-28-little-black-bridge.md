@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Little Black Bridge
 date: '2007-01-28T00:00:00-05:00'
 tags:

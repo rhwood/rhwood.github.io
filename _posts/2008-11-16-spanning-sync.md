@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Spanning Sync
 date: '2008-11-16T00:00:00-05:00'
 tags:
