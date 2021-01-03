@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Jenkins Slave for OS X
 date: '2013-06-22T00:00:00-04:00'
 tags: []
