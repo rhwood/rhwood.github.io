@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Yet another site Randall does not maintain.
 subtitle: Yet another site Randall does not maintain.
 baseurl: ""
-url: https://randallwood.com
+url: https://rhwood.github.io
 minimal_mistakes_skin: default
 locale: en-US
 breadcrumbs: true
@@ -46,9 +46,6 @@ footer:
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/rhwood
-    - label: Twitter
-      icon: fab fa-fw fa-twitter-square
-      url: https://twitter.com/rhwood
 
 include:
   - _pages
