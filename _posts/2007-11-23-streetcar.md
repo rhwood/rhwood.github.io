@@ -1,0 +1,18 @@
+---
+layout: single
+title: Streetcar!
+date: '2007-11-23T00:00:00-05:00'
+tags:
+- christopher wood
+- cleveland
+- family
+- jasper wood
+- lecture
+- movie
+- short
+- streetcar
+redirect_from: /post/171859605100/streetcar
+---
+[http://www.youtube.com/p/851670FD59236321](http://www.youtube.com/p/851670FD59236321)
+
+Jasper, my grandfather, made this movie way back when about the streetcars in Cleveland, Ohio. Here it is, in two parts, along with a lecture his son, Christopher (an uncle of mine) gave about the movie.
