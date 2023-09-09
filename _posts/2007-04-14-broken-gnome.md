@@ -7,8 +7,8 @@ tags:
 - macports
 redirect_from: /post/171410168915/broken-gnome
 ---
-<p>My <a href="http://www.macports.org">MacPorts</a>-based installation of <a href="http://www.gnome.org">GNOME</a> is broken. It seems that when I installed KDE Office to verify that some GNOME packages that KDE Office uses were not breaking KDE Office once patched in MacPorts and then uninstalled KDE Office, that at-spi just broke.</p>
+My [MacPorts](http://www.macports.org)-based installation of [GNOME](http://www.gnome.org) is broken. It seems that when I installed KDE Office to verify that some GNOME packages that KDE Office uses were not breaking KDE Office once patched in MacPorts and then uninstalled KDE Office, that at-spi just broke.
 
-<p>Plus I am suffering some scrollkeeper/docbook build wierdness that is slowing the migration to GNOME 2.18 in MacPorts&hellip;</p>
+Plus I am suffering some scrollkeeper/docbook build wierdness that is slowing the migration to GNOME 2.18 in MacPorts&hellip;
 
-<p>So anyway, I am axing my GNOME installation and my MacPorts installation and starting over from scratch this weekend.</p>
+So anyway, I am axing my GNOME installation and my MacPorts installation and starting over from scratch this weekend.

@@ -8,6 +8,6 @@ tags:
 - search
 redirect_from: /post/171927861665/macports-search
 ---
-<p>Last month, I created a <a href="http://www.google.com/coop/cse?cx=011837386708472035020:5lqtx6zp3qw">Google Custom Search</a> of the <a href="http://www.macports.org/">MacPorts</a> websites: the project home, the  guide, the wiki, the tickets database, and the source code browser.</p>
+Last month, I created a [Google Custom Search](http://www.google.com/coop/cse?cx=011837386708472035020:5lqtx6zp3qw) of the [MacPorts](http://www.macports.org/) websites: the project home, the  guide, the wiki, the tickets database, and the source code browser.
 
-<p>I had suggested using it within the MacPorts sites to the project managers, but have not heard any response one way or other, so here it is.</p>
+I had suggested using it within the MacPorts sites to the project managers, but have not heard any response one way or other, so here it is.
