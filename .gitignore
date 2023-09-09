@@ -1,6 +1,15 @@
+# Jekyll Artifacts
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Publish Artifacts
+.build
+.publish
+.swiftpm
+Output
+
+# macOS Artifacts
 .DS_Store
