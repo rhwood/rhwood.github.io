@@ -8,12 +8,12 @@ tags:
 - randomness
 redirect_from: /post/171859562735/augusta-on-male-dancers
 ---
-<p>A- &ldquo;Men don&rsquo;t like ballet.&rdquo;</p>
+A- &ldquo;Men don&rsquo;t like ballet.&rdquo;
 
-<p>C- &ldquo;Men dance in ballet.&rdquo;</p>
+C- &ldquo;Men dance in ballet.&rdquo;
 
-<p>A- &ldquo;They were tutus?&rdquo;</p>
+A- &ldquo;They were tutus?&rdquo;
 
-<p>C- &ldquo;No, they wear tights.&rdquo;</p>
+C- &ldquo;No, they wear tights.&rdquo;
 
-<p>A- &ldquo;That&rsquo;s silly! Men don&rsquo;t wear tights, they wear socks!&rdquo;</p>
+A- &ldquo;That&rsquo;s silly! Men don&rsquo;t wear tights, they wear socks!&rdquo;

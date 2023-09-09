@@ -5,4 +5,4 @@ date: '2009-12-14T00:00:00-05:00'
 tags: []
 redirect_from: /post/64950677406/what-matters-now
 ---
-<p>This <a href="http://sethgodin.typepad.com/seths_blog/2009/12/what-matters-now-get-the-free-ebook.html">collection of short essays</a> has got me thinking about life again and living it.</p>
+This [collection of short essays](http://sethgodin.typepad.com/seths_blog/2009/12/what-matters-now-get-the-free-ebook.html) has got me thinking about life again and living it.

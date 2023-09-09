@@ -7,11 +7,10 @@ tags:
 - disk space
 redirect_from: /post/187858692205/after-some-continual-struggles-to-manage-disk
 ---
-<p>After some continual struggles to manage disk space on my 2013 MacBook Pro (when purchased, I went for the small disk and maximum RAM), I found a command to run in the Terminal to free up space when needed:</p>
+After some continual struggles to manage disk space on my 2013 MacBook Pro (when purchased, I went for the small disk and maximum RAM), I found a command to run in the Terminal to free up space when needed:
 
-<pre><code>while [ $( tmutil listlocalsnapshots / | wc -l ) -gt 1 ] ; do sudo tmutil thinlocalsnapshots / 400GB 1 ; done
-</code></pre>
+`while [ $( tmutil listlocalsnapshots / | wc -l ) -gt 1 ] ; do sudo tmutil thinlocalsnapshots / 400GB 1 ; done`
 
-<p>This only works if you are using Time Machine for backups though.</p>
+This only works if you are using Time Machine for backups though.
 
-<p>Although this command freed up only about 1/5 of my disk, it also wound up reducing the amount of disk used for the &ldquo;System&rdquo; as reported by the System Utility in macOS 10.14.6.</p>
+Although this command freed up only about 1/5 of my disk, it also wound up reducing the amount of disk used for the &ldquo;System&rdquo; as reported by the System Utility in macOS 10.14.6.

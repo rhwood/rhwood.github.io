@@ -8,4 +8,4 @@ tags:
 - stupidity
 redirect_from: /post/171927850695/stupid-little-facebook-applications
 ---
-<p>I discovered today that a Facebook application that I had used as an amusement had been changed so that it spammed almost every one on my Friends list. Grr. Stupid stupid stupid addictive little activities site.</p>
+I discovered today that a Facebook application that I had used as an amusement had been changed so that it spammed almost every one on my Friends list. Grr. Stupid stupid stupid addictive little activities site.

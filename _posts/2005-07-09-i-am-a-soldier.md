@@ -5,14 +5,14 @@ date: '2005-07-09T00:00:00-04:00'
 tags: []
 redirect_from: /post/170795088915/i-am-a-soldier
 ---
-<p>Hurry up and wait.</p>
+Hurry up and wait.
 
-<p>Bored without gun nor bullets,</p>
+Bored without gun nor bullets,
 
-<p>I am a Soldier!</p>
+I am a Soldier!
 
-<p>This is a quick Haiku that I doodled up while attending a mandated training session at work. Nobody claimed it was any good.</p>
+This is a quick Haiku that I doodled up while attending a mandated training session at work. Nobody claimed it was any good.
 
-<p>As the Haiku implies, I am a soldier. Outside of BCT (Basic Combat Training), I have handled my weapon (we don&rsquo;t call &lsquo;em guns&ndash;that simply fits the 5-7-5 structure), all of 4 times, and 3 of those times it merely for its monthly cleaning. In garrison, unless we are MPs or infantry, we don&rsquo;t see our weapons much.</p>
+As the Haiku implies, I am a soldier. Outside of BCT (Basic Combat Training), I have handled my weapon (we don&rsquo;t call &lsquo;em guns&ndash;that simply fits the 5-7-5 structure), all of 4 times, and 3 of those times it merely for its monthly cleaning. In garrison, unless we are MPs or infantry, we don&rsquo;t see our weapons much.
 
-<p>(Update 9 July 05 to fix a formatting error)</p>
+(Update 9 July 05 to fix a formatting error)

@@ -8,14 +8,14 @@ tags:
 - weekly report
 redirect_from: /post/171305196750/macports-gnome-weekly-report
 ---
-<p><strong>NSTR</strong></p>
+__NSTR__
 
-<p>In military lingo, NSTR means Nothing Significant To Report and is a short-hand we use since we want to keep all communications over a tacticle radio (including computer-based communications) to under 15 seconds.</p>
+In military lingo, NSTR means Nothing Significant To Report and is a short-hand we use since we want to keep all communications over a tacticle radio (including computer-based communications) to under 15 seconds.
 
-<p>I copied a list of every port I had installed and then wiped out my installation and am reinstalling everything now, to ensure that everything is linked against the updated gettext port. I have the base GNOME installation installed, and two port fixes have come out of that, but no new improvements or upgrades have been done.</p>
+I copied a list of every port I had installed and then wiped out my installation and am reinstalling everything now, to ensure that everything is linked against the updated gettext port. I have the base GNOME installation installed, and two port fixes have come out of that, but no new improvements or upgrades have been done.
 
-<p>GNOME has released version 2.16.1, so I will be upgrading against packages in that list (or will be as soon as my base install is completed).</p>
+GNOME has released version 2.16.1, so I will be upgrading against packages in that list (or will be as soon as my base install is completed).
 
-<p>There is a new <a href="http://svn.macosforge.org/projects/macports/query?status=new&amp;status=assigned&amp;status=reopened&amp;verbose=1&amp;keywords=%7EGNOME&amp;type=task&amp;order=priority">GNOME-related Tasks</a> list for MacPorts, although as I am writing this the list is empty.</p>
+There is a new [GNOME-related Tasks](http://svn.macosforge.org/projects/macports/query?status=new&amp;status=assigned&amp;status=reopened&amp;verbose=1&amp;keywords=%7EGNOME&amp;type=task&amp;order=priority) list for MacPorts, although as I am writing this the list is empty.
 
-<p>Report 3</p>
+Report 3

@@ -7,10 +7,10 @@ tags:
 - work
 redirect_from: /post/171655227105/nasty-nasty-scare
 ---
-<p>The night before last, Friday morning at about 0100 hours actually, I went to the emergency room with chest pains. While it turns out that it was not a heart failure or problem, my doctor is not sure what caused the pains.</p>
+The night before last, Friday morning at about 0100 hours actually, I went to the emergency room with chest pains. While it turns out that it was not a heart failure or problem, my doctor is not sure what caused the pains.
 
-<p>At the time, I had been suffering from intense diarrhea for a few days, and was somewhat dehydrated. They pumped about 2.5 liters of IV into me during my early morning visit to the ER.</p>
+At the time, I had been suffering from intense diarrhea for a few days, and was somewhat dehydrated. They pumped about 2.5 liters of IV into me during my early morning visit to the ER.
 
-<p>My doctor does allow for the possibility that simple stress could have caused the pains, but he can only really diagnose stress by negative elimination&hellip;</p>
+My doctor does allow for the possibility that simple stress could have caused the pains, but he can only really diagnose stress by negative elimination&hellip;
 
-<p>Either way, I&rsquo;m recovering rapidly now, but will have to learn how to vent stress in less harmful ways.</p>
+Either way, I&rsquo;m recovering rapidly now, but will have to learn how to vent stress in less harmful ways.

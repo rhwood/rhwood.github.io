@@ -7,8 +7,7 @@ tags:
 - macports
 redirect_from: /post/171790692340/complete-gnome-platform-in-macports
 ---
-<p>MacPorts hit two milestones this week:</p>
+MacPorts hit two milestones this week:
 
-<ul><li>For the first time, we have the complete GNOME Platform in our ports tree. <a href="http://homepage.mac.com/rhwood/macports/gnome.html">Check it out.</a> Now to get the complete GNOME Desktop in our ports tree&hellip;</li>
-<li>MacPorts has more than 4000 ports in its ports tree!</li>
-</ul>
+* For the first time, we have the complete GNOME Platform in our ports tree. [Check it out.](http://homepage.mac.com/rhwood/macports/gnome.html) Now to get the complete GNOME Desktop in our ports tree&hellip;
+* MacPorts has more than 4000 ports in its ports tree!

@@ -8,4 +8,4 @@ tags:
 - wooden train
 redirect_from: /post/171247935335/little-black-bridge-2
 ---
-<p>Chysta (my wife) reports that Augusta repeatedly stated that &ldquo;Daddy made me a bridge. I&rsquo;m Special&rdquo; when she was reading to her in bed Sunday night.</p>
+Chysta (my wife) reports that Augusta repeatedly stated that &ldquo;Daddy made me a bridge. I&rsquo;m Special&rdquo; when she was reading to her in bed Sunday night.

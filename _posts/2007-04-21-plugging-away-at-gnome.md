@@ -7,6 +7,6 @@ tags:
 - macports
 redirect_from: /post/171410236490/plugging-away-at-gnome
 ---
-<p>Due to <a href="/blog/2007/04/21/long-week/">rough times this week</a>, I still have not gotten GNOME built on my computer.</p>
+Due to [rough times this week](/blog/2007/04/21/long-week/), I still have not gotten GNOME built on my computer.
 
-<p>Just grazing my email and the <a href="http://trac.macports.org/projects/macports/report">MacPorts Tickets</a>, I see that a lot of people are impatient for me to get things working fast.</p>
+Just grazing my email and the [MacPorts Tickets](http://trac.macports.org/projects/macports/report), I see that a lot of people are impatient for me to get things working fast.

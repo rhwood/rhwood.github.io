@@ -13,6 +13,6 @@ tags:
 - streetcar
 redirect_from: /post/171859605100/streetcar
 ---
-<p><a href="http://www.youtube.com/p/851670FD59236321">http://www.youtube.com/p/851670FD59236321</a></p>
+[http://www.youtube.com/p/851670FD59236321](http://www.youtube.com/p/851670FD59236321)
 
-<p>Jasper, my grandfather, made this movie way back when about the streetcars in Cleveland, Ohio. Here it is, in two parts, along with a lecture his son, Christopher (an uncle of mine) gave about the movie.</p>
+Jasper, my grandfather, made this movie way back when about the streetcars in Cleveland, Ohio. Here it is, in two parts, along with a lecture his son, Christopher (an uncle of mine) gave about the movie.
