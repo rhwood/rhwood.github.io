@@ -6,8 +6,8 @@ tags:
 - macports
 redirect_from: /post/170853178020/darwinports-gnome-and-spell-checking
 ---
-<p>It doesn&rsquo;t happen.</p>
+It doesn&rsquo;t happen.
 
-<p>The <a href="http://darwinports.opendarwin.org">Darwinports</a> ports collection includes <a href="http://aspell.net">aspell</a>, but not <a href="http://GtkSpell.sourceforge.net">GtkSpell</a> or <a href="http://www.gnome.org">GnomeSpell</a> packages. So most of the Gnome software that supports spell checking apparently does not require it, and so I failed to notice that the software had no spell checking.</p>
+The [DarwinPorts](http://darwinports.opendarwin.org) ports collection includes [aspell](http://aspell.net), but not [GtkSpell](http://GtkSpell.sourceforge.net) or [GnomeSpell](http://www.gnome.org) packages. So most of the Gnome software that supports spell checking apparently does not require it, and so I failed to notice that the software had no spell checking.
 
-<p>I guess I have a weekend project ahead of me making testable ports for GtkSpell and maybe GnomeSpell&hellip;</p>
+I guess I have a weekend project ahead of me making testable ports for GtkSpell and maybe GnomeSpell&hellip;

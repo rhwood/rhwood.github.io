@@ -6,4 +6,4 @@ tags:
 - macports
 redirect_from: /post/170829936910/gnome-on-darwinports-status
 ---
-<p>A few of the core <a href="http://www.gnome.org">GNOME</a> packages carried by <a href="http://darwinports.opendarwin.org">DarwinPorts</a> have been updated over the week. Most of my patches have been accepted and applied, but some have yet to trickle into my PortIndex. View the <a href="http://homepage.mac.com/rhwood/gnome/darwinports.html">status tables</a>.</p>
+A few of the core [GNOME](http://www.gnome.org) packages carried by [DarwinPorts](http://darwinports.opendarwin.org) have been updated over the week. Most of my patches have been accepted and applied, but some have yet to trickle into my PortIndex. View the [status tables](http://homepage.mac.com/rhwood/gnome/darwinports.html).

@@ -8,10 +8,10 @@ tags:
 - weekly report
 redirect_from: /post/171305214735/macports-gnome-weekly-report
 ---
-<p>I know, I know. This seems more like a quarterly report than a weekly report, but it is more that I took a sabbatical from port maintenance than that I have been lazy with this report.</p>
+I know, I know. This seems more like a quarterly report than a weekly report, but it is more that I took a sabbatical from port maintenance than that I have been lazy with this report.
 
-<p>Almost all of the ported <a href="http://www.gnome.org">GNOME</a> packages are now at current stable versions! The big blocker on this was (and remains) <a href="http://dbus.freedesktop.org">d-bus</a>. It builds correctly, the d-bus glib bindings build correctly, but d-bus does not work correctly. Try running the test suite (<strong>make check</strong>) after building it and you&rsquo;ll see the problem.</p>
+Almost all of the ported [GNOME](http://www.gnome.org) packages are now at current stable versions! The big blocker on this was (and remains) [d-bus](http://dbus.freedesktop.org). It builds correctly, the d-bus glib bindings build correctly, but d-bus does not work correctly. Try running the test suite (__make check__) after building it and you&rsquo;ll see the problem.
 
-<p>I am planning on reworking the TODOs section of the <a href="http://svn.macosforge.org/projects/macports/wiki/GNOME">MacPorts GNOME</a> page such that it is up-to-date and every TODO is listed as a ticket in the tracker.</p>
+I am planning on reworking the TODOs section of the [MacPorts GNOME](http://svn.macosforge.org/projects/macports/wiki/GNOME) page such that it is up-to-date and every TODO is listed as a ticket in the tracker.
 
-<p>Report 6</p>
+Report 6

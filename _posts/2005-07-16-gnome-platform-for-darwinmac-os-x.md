@@ -6,8 +6,8 @@ tags:
 - macports
 redirect_from: /post/170829899425/gnome-platform-for-darwinmac-os-x
 ---
-<p>I have <a href="http://homepage.mac.com/rhwood/gnome/darwinports.html">posted</a> the current status of the various packages provided by <a href="http://darwinports.opendarwin.org">DarwinPorts</a> for <a href="http://www.apple.com/macosx">Mac OS X</a> and <a href="http://developer.apple.com/darwin">Darwin</a> that make up the <a href="http://www.gnome.org">GNOME</a> platform, bindings, and desktop.</p>
+I have [posted](http://homepage.mac.com/rhwood/gnome/darwinports.html) the current status of the various packages provided by [DarwinPorts](http://darwinports.opendarwin.org) for [Mac OS X](http://www.apple.com/macosx) and [Darwin](http://developer.apple.com/darwin) that make up the [GNOME](http://www.gnome.org) platform, bindings, and desktop.
 
-<p>Needless to say, the platform is all but complete, if slightly dated; the bindings are complete for C++ and Python while I am not yet tracking the Perl or Java bindings, and there are large gaps in the desktop.</p>
+Needless to say, the platform is all but complete, if slightly dated; the bindings are complete for C++ and Python while I am not yet tracking the Perl or Java bindings, and there are large gaps in the desktop.
 
-<p>I have submitted some patches to upgrade some of the platform and with luck, the platform and bindings should be up to date by the end of the week (with the exception of gtk-doc (Does anyone understand how xml catalogs work and wish to write a tool to catalog docbook?))</p>
+I have submitted some patches to upgrade some of the platform and with luck, the platform and bindings should be up to date by the end of the week (with the exception of gtk-doc (Does anyone understand how xml catalogs work and wish to write a tool to catalog docbook?))
