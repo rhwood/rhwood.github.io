@@ -10,8 +10,6 @@ tags:
 - interoperability
 redirect_from: /post/170867219785/mobileme-and-incompatible-browsers
 ---
-<p>I had gotten used to using my <a href="http://idisk.me.com/">iDisk</a> to hold personal stuff that I need when I&rsquo;m at drills, but was surprised to see the following when attempting to get to it:<a href="http://shyramblings.files.wordpress.com/2008/12/me-on-ie.png"></a></p>
+I had gotten used to using my [iDisk](http://idisk.me.com/) to hold personal stuff that I need when I&rsquo;m at drills, but was surprised to see the following when attempting to get to it: [![](http://shyramblings.files.wordpress.com/2008/12/me-on-ie.png?w=300)](http://shyramblings.files.wordpress.com/2008/12/me-on-ie.png)
 
-<p><a href="http://shyramblings.files.wordpress.com/2008/12/me-on-ie.png"><img src="http://shyramblings.files.wordpress.com/2008/12/me-on-ie.png?w=300" alt=""/></a></p>
-
-<p>While it turns out that I can read the iDisk with <a href="http://www.microsoft.com/ie">Internet Explorer</a> , I did have to consult <a href="http://www.apple.com/">Apple</a> &rsquo;s <a href="http://www.apple.com/support/mobileme/">support site</a> to do so. Luckly, Apple is not so picky about how you can access that. Unfortunately, <a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=118911&amp;t=45">Firefox</a> does not yet seem to be widely available on <a href="http://www.defenselink.mil/">DoD</a> computers on the <a href="http://en.wikipedia.org/wiki/NIPRNET">NIPRNET</a> yet, or I never would have noticed.</p>
+While it turns out that I can read the iDisk with [Internet Explorer](http://www.microsoft.com/ie">), I did have to consult [Apple's](http://www.apple.com/) [support site](http://www.apple.com/support/mobileme/) to do so. Luckly, Apple is not so picky about how you can access that. Unfortunately, [Firefox](http://www.spreadfirefox.com/?q=affiliates&amp;id=118911&amp;t=45) does not yet seem to be widely available on [DoD](http://www.defenselink.mil/) computers on the [NIPRNET](http://en.wikipedia.org/wiki/NIPRNET) yet, or I never would have noticed.

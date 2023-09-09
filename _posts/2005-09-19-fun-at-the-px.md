@@ -5,8 +5,8 @@ date: '2005-09-19T00:00:00-04:00'
 tags: []
 redirect_from: /post/170867130835/fun-at-the-px
 ---
-<p>The PX uses some client-side scripting to produce a calendar for a date picker. Here&rsquo;s how the page containing the calendar displays in Safari:</p>
+The PX uses some client-side scripting to produce a calendar for a date picker. Here&rsquo;s how the page containing the calendar displays in Safari:
 
-<p><a href="http://homepage.mac.com/rhwood/Pictures/px-grab.png"><img src="http://homepage.mac.com/rhwood/Pictures/px-grab.png" alt="Browser is too modern."/></a></p>
+[![Browser is too modern.](http://homepage.mac.com/rhwood/Pictures/px-grab.png)](http://homepage.mac.com/rhwood/Pictures/px-grab.png)
 
-<p>I guess this is what you get when you attempt to maintain perfect compatability with Internet Explorer.</p>
+I guess this is what you get when you attempt to maintain perfect compatability with Internet Explorer.

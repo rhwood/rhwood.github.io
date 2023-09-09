@@ -6,14 +6,13 @@ tags:
 - gnome
 redirect_from: /post/171927936530/workplace-switcher
 ---
-<p>Why does the commercial application display its icon in the GNOME Workspace Switcher (even though it is not full screen), but the open source applications don&rsquo;t?</p>
+Why does the commercial application display its icon in the GNOME Workspace Switcher (even though it is not full screen), but the open source applications don&rsquo;t?
 
-<p><a href="http://shyramblings.files.wordpress.com/2008/08/screenshot.png"><img src="http://shyramblings.files.wordpress.com/2008/08/screenshot.png?w=109" alt=""/></a></p>
+[![](http://shyramblings.files.wordpress.com/2008/08/screenshot.png?w=109)](http://shyramblings.files.wordpress.com/2008/08/screenshot.png)
 
-<p>The applications open in the Switcher are from left-to-right:</p>
+The applications open in the Switcher are from left-to-right:
 
-<ul><li>Evolution (a GNOME project)</li>
-<li>VMWare Workstation</li>
-<li>Yelp (a GNOME project)</li>
-<li>Firefox</li>
-</ul>
+* Evolution (a GNOME project)
+* VMWare Workstation
+* Yelp (a GNOME project)
+* Firefox

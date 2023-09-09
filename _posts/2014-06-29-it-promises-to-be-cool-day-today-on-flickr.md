@@ -5,4 +5,5 @@ date: '2014-06-29T07:30:55-04:00'
 tags: []
 redirect_from: /post/90243450000/it-promises-to-be-cool-day-today-on-flickr
 ---
-<img src="https://64.media.tumblr.com/620534e89e6912c1923218491ca7916a/tumblr_n7xhbjPi8U1szvcjuo1_500.jpg"/><br/><p><a href="https://www.flickr.com/photos/rhwood/14346291097/" title="It promises to be cool day today.">It promises to be cool day today.</a> on Flickr.</p>
+![It promises to be cool day today.](https://64.media.tumblr.com/620534e89e6912c1923218491ca7916a/tumblr_n7xhbjPi8U1szvcjuo1_500.jpg)
+[It promises to be cool day today.](https://www.flickr.com/photos/rhwood/14346291097/) on Flickr.
