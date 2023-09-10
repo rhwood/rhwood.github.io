@@ -7,6 +7,7 @@ struct ShyRamblings: Website {
     enum SectionID: String, WebsiteSectionID {
         // Add the sections that you want your website to contain here:
         case mutterings
+        case ramblings
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
