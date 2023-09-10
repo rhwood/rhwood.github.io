@@ -1,10 +1,8 @@
 ---
 layout: single
 title: The State of Gnome on Darwinports
-date: '2006-05-06T00:00:00-04:00'
-tags:
-- gnome
-- macports
+date: 2006-05-06 00:00
+tags: GNOME, MacPorts
 redirect_from: /post/171245516590/the-state-of-gnome-on-darwinports
 ---
 I broke Gnome and did not see it happening until later. Sorry about that.

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Science Museum of Virginia
-date: '2006-05-27T00:00:00-04:00'
-tags: []
+date: 2006-05-27 00:00
+tags:
 redirect_from: /post/171246660230/science-museum-of-virginia
 ---
 I was disappointed.

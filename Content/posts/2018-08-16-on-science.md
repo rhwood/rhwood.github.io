@@ -1,8 +1,8 @@
 ---
 layout: single
 title: On Science...
-date: '2018-08-16T07:27:01-04:00'
-tags: []
+date: 2018-08-16 07:27
+tags:
 redirect_from: /post/177055889135/on-science
 ---
 <blockquote>

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: London Calling
-date: '2005-07-09T00:00:00-04:00'
-tags: []
+date: 2005-07-09 00:00
+tags:
 redirect_from: /post/170795102730/london-calling
 ---
 Could not call my wife in Germany from Korea the night-for-me/morning-for-her when London was bombed. Korean Telecoms simply reported that the call could not be completed without even hitting the international circuits.

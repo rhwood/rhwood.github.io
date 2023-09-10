@@ -1,11 +1,8 @@
 ---
 layout: single
 title: MacPorts / GNOME Weekly Report
-date: '2006-09-23T00:00:00-04:00'
-tags:
-- gnome
-- macports
-- weekly report
+date: 2006-09-23 00:00
+tags: GNOME, MacPorts, weekly report
 redirect_from: /post/171247532835/macports-gnome-weekly-report
 ---
 This is the first of what I hope will be a weekly report on the goings on with the [GNOME](http://www.gnome.org) packages carried by the [MacPorts](http://www.macports.org) project.

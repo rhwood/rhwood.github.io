@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Dyson Animal
-date: '2007-05-30T00:00:00-04:00'
-tags: []
+date: 2007-05-30 00:00
+tags:
 redirect_from: /post/171753791600/dyson-animal
 ---
 Our old (and first) vacuum cleaner (a Eureka of some sort) died after 4 years.

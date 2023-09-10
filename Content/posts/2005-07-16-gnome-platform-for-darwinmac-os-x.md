@@ -1,9 +1,8 @@
 ---
 layout: single
 title: GNOME Platform for Darwin/Mac OS X
-date: '2005-07-16T00:00:00-04:00'
-tags:
-- macports
+date: 2005-07-16 00:00
+tags: MacPorts
 redirect_from: /post/170829899425/gnome-platform-for-darwinmac-os-x
 ---
 I have [posted](http://homepage.mac.com/rhwood/gnome/darwinports.html) the current status of the various packages provided by [DarwinPorts](http://darwinports.opendarwin.org) for [Mac OS X](http://www.apple.com/macosx) and [Darwin](http://developer.apple.com/darwin) that make up the [GNOME](http://www.gnome.org) platform, bindings, and desktop.

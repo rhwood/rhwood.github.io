@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Transmission Goodness
-date: '2008-05-29T00:00:00-04:00'
-tags:
-- fedora
-- torrent
+date: 2008-05-29 00:00
+tags: Fedora, torrent
 redirect_from: /post/171927184020/transmission-goodness
 ---
 I used [Transmission](http://www.transmissionbt.com/) on my iMac to download [Fedora](http://www.fedoraproject.org/) so I could install it on my work computer and on an older PowerBook I have. I have been serving it up for the last 36 hours or so as well. Here&rsquo;s a screenshot: [![](http://shyramblings.files.wordpress.com/2008/05/transmission1.png?w=300)](http://shyramblings.files.wordpress.com/2008/05/transmission1.png)

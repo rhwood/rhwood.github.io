@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Static Servers/Dynamic Pages
-date: '2005-07-24T00:00:00-04:00'
-tags: []
+date: 2005-07-24 00:00
+tags:
 redirect_from: /post/170829954145/static-serversdynamic-pages
 ---
 Any developer who has worked the web knows that different browsers render content differently. I remember back in the day working to make sure that things rendered with pretty pictures in Netscape, degraded nicely in Mosaic, and worked flawlessly in Lynx (Netscape 1 was released while I was in college and I remember taking a course on using and developing for the internet and showing the Professor this wonderful new tool called the web&hellip;but that&rsquo;s a story for a different time).

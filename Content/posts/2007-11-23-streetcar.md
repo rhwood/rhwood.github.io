@@ -1,16 +1,8 @@
 ---
 layout: single
 title: Streetcar!
-date: '2007-11-23T00:00:00-05:00'
-tags:
-- christopher wood
-- cleveland
-- family
-- jasper wood
-- lecture
-- movie
-- short
-- streetcar
+date: 2007-11-23 00:00
+tags: Christopher Wood, Cleveland, family, Jasper Wood, lecture, movie, short, Streetcar
 redirect_from: /post/171859605100/streetcar
 ---
 [http://www.youtube.com/p/851670FD59236321](http://www.youtube.com/p/851670FD59236321)

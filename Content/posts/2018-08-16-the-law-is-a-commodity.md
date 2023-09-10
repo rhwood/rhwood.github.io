@@ -1,12 +1,8 @@
 ---
 layout: single
 title: The Law is a Commodity
-date: '2018-08-16T08:08:13-04:00'
-tags:
-- capitolism
-- law
-- commodities
-- baroque cycle
+date: 2018-08-16 08:08
+tags: Baroque Cycle, capitalism, commodities, law
 redirect_from: /post/177056715100/the-law-is-a-commodity
 ---
 The other day, as I was near the end of Neal Stephenson&rsquo;s _The Baroque Cycle_, I espied a television in the dining facility running one of those shows which I had always felt was a sign of the decline of American civilization, in the way that many see video games, rap, etc&hellip;

@@ -2,8 +2,8 @@
 layout: single
 title: "'Silicon Island: Why the free software desktop year is not yet here, and why it
   doesn''t matter anymore.'"
-date: '2007-05-24T00:00:00-04:00'
-tags: []
+date: 2007-05-24 00:00
+tags:
 redirect_from: /post/171655238475/silicon-island-why-the-free-software-desktop
 ---
 [Silicon Island: Why the free software desktop year is not yet here, and why it doesn&rsquo;t matter  anymore.](http://aruiz.typepad.com/siliconisland/2007/05/why_the_free_so.html)

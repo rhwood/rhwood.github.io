@@ -1,12 +1,8 @@
 ---
 layout: single
 title: Mid-August
-date: '2006-08-20T00:00:00-04:00'
-tags:
-- macports
-- php
-- sharepoint
-- work
+date: 2006-08-20 00:00
+tags: MacPorts, PHP, SharePoint, work
 redirect_from: /post/171246868960/mid-august
 ---
 Things have been quiet of late. Its been more of the same-ol&rsquo;, same-ol&rsquo;.

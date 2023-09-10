@@ -1,11 +1,8 @@
 ---
 layout: single
 title: MacPorts / GNOME Weekly Report
-date: '2007-01-28T00:00:00-05:00'
-tags:
-- gnome
-- macports
-- weekly report
+date: 2007-01-28 00:00
+tags: GNOME, MacPorts, weekly report
 redirect_from: /post/171305214735/macports-gnome-weekly-report
 ---
 I know, I know. This seems more like a quarterly report than a weekly report, but it is more that I took a sabbatical from port maintenance than that I have been lazy with this report.

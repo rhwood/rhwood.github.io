@@ -1,10 +1,8 @@
 ---
 layout: single
 title: An excellent run
-date: '2008-04-30T00:00:00-04:00'
-tags:
-- mornings
-- running
+date: 2008-04-30 00:00
+tags: mornings, running
 redirect_from: /post/171927104885/an-excellent-run
 ---
 I recently began running again. I had fallen into this strange I feel bad because I don&rsquo;t exercise and I don't exercise because I feel bad loop, but I think I may have managed to break that&hellip;

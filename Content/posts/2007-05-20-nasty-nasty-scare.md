@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Nasty Nasty Scare
-date: '2007-05-20T00:00:00-04:00'
-tags:
-- stress
-- work
+date: 2007-05-20 00:00
+tags: stress, work
 redirect_from: /post/171655227105/nasty-nasty-scare
 ---
 The night before last, Friday morning at about 0100 hours actually, I went to the emergency room with chest pains. While it turns out that it was not a heart failure or problem, my doctor is not sure what caused the pains.

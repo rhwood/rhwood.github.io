@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "'Official Gmail Blog: 9 reasons to archive'"
-date: '2008-04-20T00:00:00-04:00'
-tags: []
+date: 2008-04-20 00:00
+tags:
 redirect_from: /post/171927085510/official-gmail-blog-9-reasons-to-archive
 ---
 On the [Official Gmail Blog](http://gmailblog.blogspot.com/) there is an article [9 reasons to archive](http://gmailblog.blogspot.com/2008/04/9-reasons-to-archive.html).

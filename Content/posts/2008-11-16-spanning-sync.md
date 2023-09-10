@@ -1,13 +1,8 @@
 ---
 layout: single
 title: Spanning Sync
-date: '2008-11-16T00:00:00-05:00'
-tags:
-- google
-- mac os x
-- shameless commerce
-- single copy
-- spanning sync
+date: 2008-11-16 00:00
+tags: Google, macOS, shameless commerce, single copy, Spanning Sync
 redirect_from: /post/170889389465/spanning-sync
 ---
 

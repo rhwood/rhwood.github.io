@@ -1,8 +1,8 @@
 ---
 layout: single
 title: I am a Soldier
-date: '2005-07-09T00:00:00-04:00'
-tags: []
+date: 2005-07-09 00:00
+tags:
 redirect_from: /post/170795088915/i-am-a-soldier
 ---
 Hurry up and wait.

@@ -1,9 +1,8 @@
 ---
 layout: single
 title: Using portfile-update
-date: '2006-06-28T00:00:00-04:00'
-tags:
-- macports
+date: 2006-06-28 00:00
+tags: MacPorts
 redirect_from: /post/171246821685/using-portfile-update
 ---
 About 6 months ago, I threw together a script to help me automate the process of updating a Portfile for a package from [GNOME](http://www.gnome.org) ftp servers. I called the script gport and wrote it in [PHP](http://php.net) simply because I knew that language.

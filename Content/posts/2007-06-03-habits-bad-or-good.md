@@ -1,13 +1,8 @@
 ---
 layout: single
 title: Habits, Bad or Good
-date: '2007-06-03T00:00:00-04:00'
-tags:
-- alexandria
-- chicago
-- kansas city
-- family
-- photos
+date: 2007-06-03 00:00
+tags: Alexandria, Chicago, Kansas City, family, photos
 redirect_from: /post/171790732615/habits-bad-or-good
 ---
 [![](http://lh5.google.com/image/randall.h.wood/RmKX7tCx5RE/AAAAAAAAAqY/siqgCJoti4E/s160-c/LazyFilmCartridge.jpg](http://picasaweb.google.com/randall.h.wood/LazyFilmCartridge)

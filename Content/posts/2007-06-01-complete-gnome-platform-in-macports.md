@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Complete GNOME Platform in MacPorts
-date: '2007-06-01T00:00:00-04:00'
-tags:
-- gnome
-- macports
+date: 2007-06-01 00:00
+tags: GNOME, MacPorts
 redirect_from: /post/171790692340/complete-gnome-platform-in-macports
 ---
 MacPorts hit two milestones this week:

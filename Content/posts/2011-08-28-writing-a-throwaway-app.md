@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Writing a Throwaway App
-date: '2011-08-28T00:00:00-04:00'
-tags: []
+date: 2011-08-28 00:00
+tags:
 redirect_from: /post/64950680395/writing-a-throwaway-app
 ---
 As I was mobilizing late last year (in mid-to-late December), I had an idea of an easy, simple app that I could write for the iPhone. It would serve a purpose both my wife and I had (tracking the length of my deployment in a single pie chart à la the _Deployment Donut_ or _Donut of Misery_), and once written, I would not need to maintain it. It was a to be a _throwaway app_.

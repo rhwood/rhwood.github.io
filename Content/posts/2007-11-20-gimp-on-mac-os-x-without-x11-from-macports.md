@@ -1,13 +1,8 @@
 ---
 layout: single
 title: Gimp on Mac OS X without X11 from MacPorts
-date: '2007-11-20T00:00:00-05:00'
-tags:
-- gimp
-- gnome
-- mac os x
-- macports
-- x11
+date: 2007-11-20 00:00
+tags: GIMP, GNOME, macOS, MacPorts, X11
 redirect_from: /post/171859583235/gimp-on-mac-os-x-without-x11-from-macports
 ---
 [![](http://shyramblings.files.wordpress.com/2007/11/gimp.png?w=300)](http://shyramblings.files.wordpress.com/2007/11/gimp.png)

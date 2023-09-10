@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Overcoming a Fear of Needles
-date: '2006-02-11T00:00:00-05:00'
-tags: []
+date: 2006-02-11 00:00
+tags:
 redirect_from: /post/170938130305/overcoming-a-fear-of-needles
 ---
 I have finally overcome my fear of needles.

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Using Drivel
-date: '2005-07-03T00:00:00-04:00'
-tags: []
+date: 2005-07-03 00:00
+tags:
 redirect_from: /post/170794882300/using-drivel
 ---
 Using [Drivel](http://www.dropline.net/drivel/).

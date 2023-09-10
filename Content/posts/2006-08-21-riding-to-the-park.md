@@ -1,9 +1,8 @@
 ---
 layout: single
 title: Riding to the Park
-date: '2006-08-21T00:00:00-04:00'
-tags:
-- family
+date: 2006-08-21 00:00
+tags: family
 redirect_from: /post/171246917485/riding-to-the-park
 ---
 This afternoon Augusta and I rode Chrysta&rsquo;s bicycle to McIntire Park. I rode Chrysta&rsquo;s bike since the rear inner tube on mine had a leak at the valve, meaning that I have to replace the inner tube and can&rsquo;t just patch it. Augusta rode in the little German child seat that can be remounted on the bike or moved from bike-to-bike in, like, no time flat.

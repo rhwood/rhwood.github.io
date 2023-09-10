@@ -1,11 +1,8 @@
 ---
 layout: single
 title: Little Black Bridge
-date: '2007-01-28T00:00:00-05:00'
-tags:
-- brio
-- family
-- wooden train
+date: 2007-01-28 00:00
+tags: BRIO, family, wooden train
 redirect_from: /post/171247904775/little-black-bridge
 ---
 ![Little Black Bridge](/assets/2007-01-28-little-black-bridge.jpeg)

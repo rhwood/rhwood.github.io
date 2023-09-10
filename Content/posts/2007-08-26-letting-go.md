@@ -1,9 +1,8 @@
 ---
 layout: single
 title: Letting Go
-date: '2007-08-26T00:00:00-04:00'
-tags:
-- family
+date: 2007-08-26 00:00
+tags: family
 redirect_from: /post/171859530460/letting-go
 ---
 Chrysta is taking it harder than I am.
