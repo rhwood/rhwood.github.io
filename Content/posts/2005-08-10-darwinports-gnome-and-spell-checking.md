@@ -1,9 +1,8 @@
 ---
 layout: single
 title: Darwinports GNOME and spell checking.
-date: '2005-08-10T00:00:00-04:00'
-tags:
-- macports
+date: 2005-08-10 00:00
+tags: MacPorts
 redirect_from: /post/170853178020/darwinports-gnome-and-spell-checking
 ---
 It doesn&rsquo;t happen.

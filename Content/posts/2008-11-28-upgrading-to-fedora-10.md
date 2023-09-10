@@ -1,11 +1,8 @@
 ---
 layout: single
 title: Upgrading to Fedora 10
-date: '2008-11-28T00:00:00-05:00'
-tags:
-- fedora
-- upgrade
-- vmware
+date: 2008-11-28 00:00
+tags: Fedora, upgrade, VMware
 redirect_from: /post/170889338170/upgrading-to-fedora-10
 ---
 Yesterday morning I upgraded my work laptop from Fedora 9 to [Fedora 10](http://fedoraproject.org/get-fedora). Other than a couple of issues outlined below, the experience seemed reasonable:

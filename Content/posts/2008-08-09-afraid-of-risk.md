@@ -1,13 +1,8 @@
 ---
 layout: single
 title: Afraid of Risk
-date: '2008-08-09T00:00:00-04:00'
-tags:
-- family
-- fear
-- life
-- openness
-- risk
+date: 2008-08-09 00:00
+tags: family, fear, life, openness, risk
 redirect_from: /post/171927915530/afraid-of-risk
 ---
 I used to be totally flexible in my life. It (my live, my future) was wide open, on some arid plains somewhere, full of beauty and possibility.

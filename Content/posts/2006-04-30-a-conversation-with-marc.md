@@ -1,10 +1,8 @@
 ---
 layout: single
 title: A Conversation with Marc
-date: '2006-04-30T00:00:00-04:00'
-tags:
-- gnome
-- macports
+date: 2006-04-30 00:00
+tags: GNOME, MacPorts
 redirect_from: /post/171242330555/a-conversation-with-marc
 ---
 > On 29 Apr 2006, at 18:35, Marc wrote:

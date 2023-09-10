@@ -1,11 +1,8 @@
 ---
 layout: single
 title: Augusta on Male Dancers
-date: '2007-10-16T00:00:00-04:00'
-tags:
-- childhood
-- family
-- randomness
+date: 2007-10-16 00:00
+tags: childhood, family, randomness
 redirect_from: /post/171859562735/augusta-on-male-dancers
 ---
 A- &ldquo;Men don&rsquo;t like ballet.&rdquo;

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: I Wondered Why He Did That
-date: '2006-02-03T00:00:00-05:00'
-tags: []
+date: 2006-02-03 00:00
+tags:
 redirect_from: /post/170938061170/i-wondered-why-he-did-that
 ---
 I&rsquo;m an enlisted soldier. It means that when I see an officer outdoors, I salute. It&rsquo;s a simple thing to do and rarely is screwed up or even really noticed by the officer or soldier&ndash;that is, I salute, he returns the salute, and we go on about our lives.

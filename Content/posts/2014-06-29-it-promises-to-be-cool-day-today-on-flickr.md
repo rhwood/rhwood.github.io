@@ -1,8 +1,8 @@
 ---
 layout: single
 title: it promises to be cool day today on flickr
-date: '2014-06-29T07:30:55-04:00'
-tags: []
+date: 2014-06-29 07:30
+tags:
 redirect_from: /post/90243450000/it-promises-to-be-cool-day-today-on-flickr
 ---
 ![It promises to be cool day today.](https://64.media.tumblr.com/620534e89e6912c1923218491ca7916a/tumblr_n7xhbjPi8U1szvcjuo1_500.jpg)

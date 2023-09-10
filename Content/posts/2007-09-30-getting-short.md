@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Getting Short
-date: '2007-09-30T00:00:00-04:00'
-tags:
-- army
-- work
+date: 2007-09-30 00:00
+tags: army, work
 redirect_from: /post/171859550985/getting-short
 ---
 [googleapps domain=&ldquo;spreadsheets&rdquo; dir=&ldquo;pub&rdquo; query=&ldquo;key=pXT1NE0qatrjGoaxTWMRidw&amp;output=html&amp;gid=0&amp;single=true&amp;widget=true&rdquo; width=&ldquo;500&rdquo; height=&ldquo;300&rdquo; /]

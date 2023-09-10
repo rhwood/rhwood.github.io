@@ -1,8 +1,8 @@
 ---
 layout: single
 title: 'A letter to an old friend:'
-date: '2009-04-09T00:00:00-04:00'
-tags: []
+date: 2009-04-09 00:00
+tags:
 redirect_from: /post/64950701520/a-letter-to-an-old-friend
 ---
 I remember being very angry at what I felt was an unnecessarily self congratulatory tone of <i>Unzipped</i>, the movie about Isaac Mizrahi. I remember that you seemed somewhat shocked by that.<br/><br/>

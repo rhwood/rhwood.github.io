@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Throwing Butterflies
-date: '2006-04-20T00:00:00-04:00'
-tags: []
+date: 2006-04-20 00:00
+tags:
 redirect_from: /post/171242401235/throwing-butterflies
 ---
 Recently when Chrysta and I were driving in the country&ndash;one of the rare occasions when I was a passenger&ndash;we hit a butterfly on our windshield.

@@ -1,11 +1,8 @@
 ---
 layout: single
 title: MacPorts / GNOME Weekly Report
-date: '2006-10-15T00:00:00-04:00'
-tags:
-- gnome
-- macports
-- weekly report
+date: 2006-10-15 00:00
+tags: GNOME, MacPorts, weekly report
 redirect_from: /post/171305225430/macports-gnome-weekly-report
 ---
 GNOME has sound! (Actually ever since we ported gstreamer version 0.10.0+, GNOME has had working sound if the esd output was selected in the GNOME Preferences.) This weekend I ported gnome-audio. Although it has no dependencies, and nothing depends on it except the gnome-desktop-suite metaport, it does provide a default set of sounds for the GNOME desktop.

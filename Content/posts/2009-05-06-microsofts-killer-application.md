@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Microsoft's Killer Application
-date: '2009-05-06T00:00:00-04:00'
-tags: []
+date: 2009-05-06 00:00
+tags:
 redirect_from: /post/64950672062/microsofts-killer-application
 ---
 It&rsquo;s well&hellip;it&rsquo;s _Microsoft_.

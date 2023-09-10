@@ -1,12 +1,8 @@
 ---
 layout: single
 title: Going to Kansas City
-date: '2007-06-26T00:00:00-04:00'
-tags:
-- amtrak
-- chicago
-- family
-- kansas city
+date: 2007-06-26 00:00
+tags: Amtrak, Chicago, family, Kansas City
 redirect_from: /post/171790748210/going-to-kansas-city
 ---
 [![](http://lh3.google.com/image/randall.h.wood/RnMbjIOsuYE/AAAAAAAAA7o/wrAWmitJ1F0/s160-c/KansasCity2007.jpg)](http://picasaweb.google.com/randall.h.wood/KansasCity2007)

@@ -1,13 +1,8 @@
 ---
 layout: single
 title: Gimp on Mac OS X without X11 from MacPorts Redux
-date: '2008-06-09T00:00:00-04:00'
-tags:
-- gimp
-- gnome
-- mac os x
-- macports
-- x11
+date: 2008-06-09 00:00
+tags: GIMP, GNOME, macOS, MacPorts, X11
 redirect_from: /post/171927887635/gimp-on-mac-os-x-without-x11-from-macports-redux
 ---
 A few months ago, I wrote about using [Gimp](http://www.gimp.org/) on [Mac OS X](http://www.apple.com/macosx) without [X11](http://en.wikipedia.org/wiki/X11) from [MacPorts](http://www.macports.org/). Since then I&rsquo;ve upgraded my systems to Mac OS X Leopard (version 10.5), and experienced the [font rendering problem](http://trac.macports.org/ticket/15209) myself. That problem is now fixed.

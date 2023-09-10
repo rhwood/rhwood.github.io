@@ -1,14 +1,8 @@
 ---
 layout: single
 title: My Laptop at Work
-date: '2008-03-08T00:00:00-05:00'
-tags:
-- fedora
-- linux
-- solaris
-- vmware
-- windows
-- work
+date: 2008-03-08 00:00
+tags: Fedora, Linux, Solaris, VMware, Windows, work
 redirect_from: /post/171927055920/my-laptop-at-work
 ---
 I recently began working at [Trusted Computer Solutions](http://www.trustedcs.com) (TCS). TCS is (as I understand things) a [Linux](http://en.wikipedia.org/wiki/Linux) shop transitioning from a being a [Solaris](http://www.sun.com/software/solaris/index.jsp) shop.

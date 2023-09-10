@@ -1,9 +1,8 @@
 ---
 layout: single
 title: GNOME on DarwinPorts
-date: '2005-10-01T00:00:00-04:00'
-tags:
-- macports
+date: 2005-10-01 00:00
+tags: MacPorts
 redirect_from: /post/170889220630/gnome-on-darwinports
 ---
 I was nominated to be a commiter on the DarwinPorts project due to the number of ports that I have submitted upgrades for. Almost every port I have submitted for an upgrade has been a port from the GNOME project.

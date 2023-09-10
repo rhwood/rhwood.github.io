@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Flying Monday Evening
-date: '2018-02-24T14:44:24-05:00'
-tags: []
+date: 2018-02-24 14:44
+tags:
 redirect_from: /post/171243523010/flying-monday-evening
 ---
 Flying Monday evening, taking off just before sunset, under cloudy skies, I was disappointed to find that we were immediately in the clouds not even having left the airport grounds to fly over suburban Virginia before we were in the clouds. The cloud cover turned out to be uniform and thin, so we were quickly skimming over a pristine White Sea with dark thunderheads in the distance. It put me mind of Pocco Rosso’s misery at not being to fly forever above the clouds.

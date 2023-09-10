@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Time Machine and Space
-date: '2019-09-21T09:47:47-04:00'
-tags:
-- macos
-- disk space
+date: 2019-09-21 09:47
+tags: disk space, macOS
 redirect_from: /post/187858692205/after-some-continual-struggles-to-manage-disk
 ---
 After some continual struggles to manage disk space on my 2013 MacBook Pro (when purchased, I went for the small disk and maximum RAM), I found a command to run in the Terminal to free up space when needed:

@@ -1,12 +1,8 @@
 ---
 layout: single
 title: A Jenkins Node Daemon on OS X
-date: '2012-11-25T00:00:00-05:00'
-tags:
-- Jenkins
-- continuous integration
-- development
-- OS X
+date: 2012-11-25 00:00
+tags: continuous integration, development, Jenkins, macOS
 redirect_from: /post/65038713155/a-jenkins-node-daemon-on-os-x
 ---
 __Update:__ Use [Jenkins Slave for OS X](https://github.com/rhwood/jenkins-slave-osx) instead. It&rsquo;s based on these gists and has the benefit of being maintained.

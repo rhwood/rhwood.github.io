@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Fun at the PX
-date: '2005-09-19T00:00:00-04:00'
-tags: []
+date: 2005-09-19 00:00
+tags:
 redirect_from: /post/170867130835/fun-at-the-px
 ---
 The PX uses some client-side scripting to produce a calendar for a date picker. Here&rsquo;s how the page containing the calendar displays in Safari:

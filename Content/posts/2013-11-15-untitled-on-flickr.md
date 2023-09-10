@@ -1,8 +1,8 @@
 ---
 layout: single
 title: untitled on flickr
-date: '2013-11-15T07:46:43-05:00'
-tags: []
+date: 2013-11-15 07:46
+tags:
 redirect_from: /post/67052967430/untitled-on-flickr
 ---
 ![untitled](https://64.media.tumblr.com/cb0dea5eec08a0e834721a7c25ee30af/tumblr_mwb25wyFvt1szvcjuo1_500.jpg)

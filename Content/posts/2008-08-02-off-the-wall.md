@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Off the Wall
-date: '2008-08-02T00:00:00-04:00'
-tags:
-- itunes
-- music
+date: 2008-08-02 00:00
+tags: iTunes, music
 redirect_from: /post/171927903480/off-the-wall
 ---
 [![](http://clickserve.cc-dt.com/link/banner?lid=41000000025893202)](http://music.barnesandnoble.com/Off-the-Wall/Michael-Jackson/e/074646607022/?itm=1&amp;afsrc=1&amp;lkid=J25893202&amp;pubid=K117976&amp;byo=1) I recently heard a song on the radio that made me realize that my music collection was missing a critical album: Michael Jackson&rsquo;s __Off the Wall__. It&rsquo;s not my first iTunes purchase, but it&rsquo;s my first in a long time. I also spent a few hours simply feeding CDs to my computer to add to my iTunes library.

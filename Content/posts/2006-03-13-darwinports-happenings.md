@@ -1,9 +1,8 @@
 ---
 layout: single
 title: DarwinPorts Happenings
-date: '2006-03-13T00:00:00-05:00'
-tags:
-- macports
+date: 2006-03-13 00:00
+tags: MacPorts
 redirect_from: /post/171050440385/darwinports-happenings
 ---
 Some DarwinPorts happenings:

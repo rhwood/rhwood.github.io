@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Broken GNOME
-date: '2007-04-14T00:00:00-04:00'
-tags:
-- gnome
-- macports
+date: 2007-04-14 00:00
+tags: GNOME, MacPorts
 redirect_from: /post/171410168915/broken-gnome
 ---
 My [MacPorts](http://www.macports.org)-based installation of [GNOME](http://www.gnome.org) is broken. It seems that when I installed KDE Office to verify that some GNOME packages that KDE Office uses were not breaking KDE Office once patched in MacPorts and then uninstalled KDE Office, that at-spi just broke.

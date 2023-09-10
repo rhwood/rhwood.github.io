@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Static servers/Dynamic pages (2)
-date: '2005-09-19T00:00:00-04:00'
-tags: []
+date: 2005-09-19 00:00
+tags:
 redirect_from: /post/170867143890/static-serversdynamic-pages-2
 ---
 I rewrote my dynamic Get Firefox button code to be unobtrusive and to display the Firefox button no matter what. The code now only runs after the page is loaded and replaces an existing Firefox button in the page.

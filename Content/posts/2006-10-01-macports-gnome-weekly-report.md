@@ -1,11 +1,8 @@
 ---
 layout: single
 title: MacPorts / GNOME Weekly Report
-date: '2006-10-01T00:00:00-04:00'
-tags:
-- gnome
-- macports
-- weekly report
+date: 2006-10-01 00:00
+tags: GNOME, MacPorts, weekly report
 redirect_from: /post/171305185245/macports-gnome-weekly-report
 ---
 This week I began porting the GNOME desktop to version 2.16.0

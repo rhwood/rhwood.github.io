@@ -1,9 +1,8 @@
 ---
 layout: single
 title: portfile-update 0.1
-date: '2006-06-28T00:00:00-04:00'
-tags:
-- macports
+date: 2006-06-28 00:00
+tags: MacPorts
 redirect_from: /post/171246783880/portfile-update-01
 ---
 This evening I published a new tool for [DarwinPorts](http://www.darwinports.org) called portfile-update. Run from a directory containing a DarwinPorts Portfile, it will upgrade the port to the specified version. If run against a port that is downloaded from the [GNOME](http://www.gnome.org) project&rsquo;s [download server (ftp.gnome.org)](http://ftp.gnome.org) or one of its mirrors, it will automatically determine which is the latest stable release and update the Portfile to that version. Switches allow it to update the Portfile to an arbitrary or the latest unstable version from the GNOME servers as well.

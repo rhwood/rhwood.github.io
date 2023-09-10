@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Bug Buddy works
-date: '2007-03-21T00:00:00-04:00'
-tags: []
+date: 2007-03-21 00:00
+tags:
 redirect_from: /post/171305281255/bug-buddy-works
 ---
 The [GNOME](http://www.gnome.org/) bug reporting tool, __Bug Buddy__ works well. Maybe even too well.

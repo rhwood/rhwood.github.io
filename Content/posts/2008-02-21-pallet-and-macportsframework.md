@@ -1,13 +1,8 @@
 ---
 layout: single
 title: Pallet and MacPorts.Framework
-date: '2008-02-21T00:00:00-05:00'
-tags:
-- cocoa
-- macports
-- macports.framework
-- pallet
-- objective-c
+date: 2008-02-21 00:00
+tags: Cocoa, MacPorts, MacPorts.framework, Pallet, Objective-C
 redirect_from: /post/171859744090/pallet-and-macportsframework
 ---
 A brief note on the status of _Pallet_ and the _MacPorts.Framework_:

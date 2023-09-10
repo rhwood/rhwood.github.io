@@ -1,10 +1,8 @@
 ---
 layout: single
 title: GNOME on DarwinPorts (2)
-date: '2006-05-27T00:00:00-04:00'
-tags:
-- gnome
-- macports
+date: 2006-05-27 00:00
+tags: GNOME, MacPorts
 redirect_from: /post/171246705545/gnome-on-darwinports-2
 ---
 Since my primary machine went down 2 weeks ago, I have had a chance (and a need) to reinstall GNOME from scratch with DarwinPorts. This has resulted in many bugs being fixed over the past week or so and with the exception of one bug related to a bad server ([bug #8371](http://bugzilla.opendarwin.org/show_bug.cgi?id=8371)), I have managed to commit fixes into CVS.

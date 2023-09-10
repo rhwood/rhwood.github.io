@@ -1,9 +1,8 @@
 ---
 layout: single
 title: Inbox Control
-date: '2008-08-21T00:00:00-04:00'
-tags:
-- inbox 0
+date: 2008-08-21 00:00
+tags: inbox 0
 redirect_from: /post/171655371005/inbox-control
 ---
 I have been using the [Inbox 0](http://www.43folders.com/izero) system to manage my email at work for a couple of months. It&rsquo;s working out mostly, as I find that I sometimes let my Inbox grow again before cleaning it up, and I still have not gone completely though the DMZ folder to determine what needs to be archived and what doesn&rsquo;t.
