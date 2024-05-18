@@ -4,5 +4,12 @@
 .swiftpm
 Output
 
+# Jekyll Artifacts
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
 # macOS Artifacts
 .DS_Store
