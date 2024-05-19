@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Upgrading to Fedora 10
 date: 2008-11-28 00:00
 categories: mutterings

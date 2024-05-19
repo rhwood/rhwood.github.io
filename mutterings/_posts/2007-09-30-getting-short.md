@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Getting Short
 date: 2007-09-30 00:00
 categories: mutterings

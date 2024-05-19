@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Mid-August
 date: 2006-08-20 00:00
 categories: mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Time Machine and Space
 date: 2019-09-21 09:47
 categories: mutterings

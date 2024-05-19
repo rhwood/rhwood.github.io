@@ -1,5 +1,4 @@
 ---
-layout: post
 title: What's the Matter?
 date: 2006-07-21 00:00
 categories: mutterings

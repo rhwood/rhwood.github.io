@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Writing a Throwaway App
 date: 2011-02-11 00:00
 categories: Ramblings

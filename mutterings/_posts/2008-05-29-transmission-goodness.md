@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Transmission Goodness
 date: 2008-05-29 00:00
 categories: mutterings

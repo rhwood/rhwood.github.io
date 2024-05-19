@@ -1,5 +1,4 @@
 ---
-layout: post
 title: An excellent run
 date: 2008-04-30 00:00
 categories: mutterings

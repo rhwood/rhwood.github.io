@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Enlightening mankind about the correct spelling of Gnome
 date: 2006-04-23 00:00
 categories: mutterings

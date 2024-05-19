@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Streetcar!
 date: 2007-11-23 00:00
 categories: mutterings

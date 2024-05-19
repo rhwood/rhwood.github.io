@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Reflections on the Lake
 date: 2011-03-10 00:00
 categories: Ramblings

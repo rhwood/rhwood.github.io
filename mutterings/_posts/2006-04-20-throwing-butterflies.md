@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Throwing Butterflies
 date: 2006-04-20 00:00
 categories: Mutterings

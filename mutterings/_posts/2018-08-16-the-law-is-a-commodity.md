@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Law is a Commodity
 date: 2018-08-16 08:08
 categories: mutterings

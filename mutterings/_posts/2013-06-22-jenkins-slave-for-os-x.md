@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jenkins Slave for OS X
 date: 2013-06-22 00:00
 categories: Mutterings

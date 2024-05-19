@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GNOME Platform for Darwin/Mac OS X
 date: 2005-07-16 00:00
 categories: mutterings

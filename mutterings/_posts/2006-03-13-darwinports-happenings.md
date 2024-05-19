@@ -1,5 +1,4 @@
 ---
-layout: post
 title: DarwinPorts Happenings
 date: 2006-03-13 00:00
 categories: mutterings

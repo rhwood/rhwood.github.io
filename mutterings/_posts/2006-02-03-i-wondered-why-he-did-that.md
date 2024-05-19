@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I Wondered Why He Did That
 date: 2006-02-03 00:00
 categories: Mutterings

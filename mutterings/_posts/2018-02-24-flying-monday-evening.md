@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Flying Monday Evening
 date: 2018-02-24 14:44
 categories: Mutterings

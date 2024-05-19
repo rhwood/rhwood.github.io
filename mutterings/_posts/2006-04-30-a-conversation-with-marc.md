@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A Conversation with Marc
 date: 2006-04-30 00:00
 categories: mutterings

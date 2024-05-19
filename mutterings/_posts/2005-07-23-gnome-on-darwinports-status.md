@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GNOME on DarwinPorts Status
 date: 2005-07-23 00:00
 categories: mutterings

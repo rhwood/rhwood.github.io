@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I Hate Hollywood
 date: 2005-09-24 00:00
 categories: Mutterings

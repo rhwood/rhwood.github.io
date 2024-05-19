@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Bug Buddy works
 date: 2007-03-21 00:00
 categories: Mutterings

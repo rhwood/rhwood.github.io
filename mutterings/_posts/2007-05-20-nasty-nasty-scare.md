@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Nasty Nasty Scare
 date: 2007-05-20 00:00
 categories: mutterings

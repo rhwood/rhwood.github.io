@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Blowing Snow
 date: 2011-03-10 00:00
 categories: Ramblings

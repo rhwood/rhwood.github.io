@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fun at the PX
 date: 2005-09-19 00:00
 categories: Mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: MacPorts / GNOME Weekly Report
 date: 2006-10-15 00:00
 categories: mutterings

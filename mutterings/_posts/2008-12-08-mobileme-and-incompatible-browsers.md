@@ -1,5 +1,4 @@
 ---
-layout: post
 title: MobileMe and Incompatible Browsers
 date: 2008-12-08 00:00
 categories: mutterings

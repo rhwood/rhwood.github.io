@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using Drivel
 date: 2005-07-03 00:00
 categories: Mutterings

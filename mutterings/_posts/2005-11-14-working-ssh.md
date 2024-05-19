@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Working SSH!
 date: 2005-11-14 00:00
 categories: Mutterings

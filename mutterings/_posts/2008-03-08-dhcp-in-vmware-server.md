@@ -1,5 +1,4 @@
 ---
-layout: post
 title: DHCP in VMware Server
 date: 2008-03-08 00:00
 categories: mutterings

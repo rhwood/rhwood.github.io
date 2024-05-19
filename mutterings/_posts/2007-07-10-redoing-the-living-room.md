@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Redoing the Living Room
 date: 2007-07-10 00:00
 categories: Mutterings

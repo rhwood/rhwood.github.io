@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spam Yourself
 date: 2008-08-18 00:00
 categories: Mutterings

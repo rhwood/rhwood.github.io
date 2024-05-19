@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Stupid Little Facebook Applications
 date: 2008-06-06 00:00
 categories: mutterings

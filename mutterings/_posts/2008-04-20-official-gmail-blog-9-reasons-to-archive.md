@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "'Official Gmail Blog: 9 reasons to archive'"
 date: 2008-04-20 00:00
 categories: Mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: MacPorts Search
 date: 2008-06-07 00:00
 categories: mutterings

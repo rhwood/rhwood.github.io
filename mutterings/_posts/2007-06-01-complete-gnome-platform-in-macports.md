@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Complete GNOME Platform in MacPorts
 date: 2007-06-01 00:00
 categories: mutterings

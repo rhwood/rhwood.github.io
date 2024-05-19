@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My Laptop at Work
 date: 2008-03-08 00:00
 categories: mutterings

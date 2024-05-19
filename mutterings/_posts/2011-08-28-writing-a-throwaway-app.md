@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Writing a Throwaway App
 date: 2011-08-28 00:00
 categories: Mutterings

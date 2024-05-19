@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Trusting your NCO
 date: 2005-07-03 06:59
 categories: Mutterings

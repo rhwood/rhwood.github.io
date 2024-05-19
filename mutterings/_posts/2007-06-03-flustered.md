@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Flustered
 date: 2007-06-03 00:00
 categories: Mutterings
