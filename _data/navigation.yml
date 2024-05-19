@@ -1,3 +1,10 @@
 main:
+  - title: Projects
+    url: /projects
+    children:
+    - title: JSplitButton
+      url: /jsplitbutton
+    - title: JInputValidator
+      url: /jinputvalidator
   - title: About
     url: /about
