@@ -19,7 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Shy Ramblings
-copyright: Randall Wood
+name: &name "Randall Wood" # &name is a YAML anchor which can be *referenced later
+copyright: *name
 email: rhwood+blog@mac.com
 description: >- # this means to ignore newlines until "baseurl:"
   Yet another site Randall does not maintain.
@@ -40,6 +41,26 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rhwood"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/randall-wood-a80aa4122"
+
+# Site Author
+author:
+  name: *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar: "/assets/images/randall-wood.jpg"
+  bio: "Just another troublemaker."
+  location: "Herndon, VA, USA"
+  links:
+    - label: "Shy Ramblings"
+      icon: "fas fa-fw fa-link"
+      url: "https://rhwood.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rhwood"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/randall-wood-a80aa4122"
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -53,10 +74,22 @@ defaults:
       type: posts
     values:
       layout: single
+      author_profile: true
+      show_date: true
       # read_time: true
       # comments: true
       # share: true
       # related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      show_date: false
+
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
