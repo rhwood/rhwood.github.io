@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using portfile-update
 date: 2006-06-28 00:00
 categories: mutterings

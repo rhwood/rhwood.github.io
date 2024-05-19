@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Lewis Ginter Botanical Garden
 date: 2007-05-26 00:00
 categories: mutterings

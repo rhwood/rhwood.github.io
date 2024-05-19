@@ -1,5 +1,4 @@
 ---
-layout: post
 title: MacPorts / GNOME Report
 date: 2007-03-17 00:00
 categories: mutterings

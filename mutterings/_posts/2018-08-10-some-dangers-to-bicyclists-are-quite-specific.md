@@ -1,5 +1,4 @@
 ---
-layout: post
 title: no title
 date: 2018-08-10 21:36
 categories: Mutterings

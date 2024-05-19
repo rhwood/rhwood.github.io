@@ -1,5 +1,4 @@
 ---
-layout: post
 title: untitled on flickr
 date: 2013-11-15 07:46
 categories: Mutterings

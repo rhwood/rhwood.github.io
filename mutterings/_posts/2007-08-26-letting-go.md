@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Letting Go
 date: 2007-08-26 00:00
 categories: mutterings

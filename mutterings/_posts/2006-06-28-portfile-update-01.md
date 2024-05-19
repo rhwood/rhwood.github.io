@@ -1,5 +1,4 @@
 ---
-layout: post
 title: portfile-update 0.1
 date: 2006-06-28 00:00
 categories: mutterings

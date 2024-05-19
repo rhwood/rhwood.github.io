@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GNOME on Mac OS X
 date: 2005-10-01 00:00
 categories: mutterings

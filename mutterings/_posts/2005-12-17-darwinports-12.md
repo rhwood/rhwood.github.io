@@ -1,5 +1,4 @@
 ---
-layout: post
 title: DarwinPorts 1.2
 date: 2005-12-17 00:00
 categories: mutterings

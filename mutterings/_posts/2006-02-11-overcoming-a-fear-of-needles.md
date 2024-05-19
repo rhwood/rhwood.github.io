@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Overcoming a Fear of Needles
 date: 2006-02-11 00:00
 categories: Mutterings

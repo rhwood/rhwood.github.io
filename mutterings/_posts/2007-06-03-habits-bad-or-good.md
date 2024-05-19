@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Habits, Bad or Good
 date: 2007-06-03 00:00
 categories: mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Lonely Saxophones
 date: 2009-03-30 00:00
 categories: Mutterings

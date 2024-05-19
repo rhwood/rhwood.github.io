@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Obligatory Screen Shot
 date: 2007-04-17 00:00
 categories: mutterings

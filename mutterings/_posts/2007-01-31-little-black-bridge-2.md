@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Little Black Bridge (2)
 date: 2007-01-31 00:00
 categories: mutterings

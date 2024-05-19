@@ -1,5 +1,4 @@
 ---
-layout: post
 title: port of djibouti from my hotel room at dusk
 date: 2014-06-21 11:13
 categories: Mutterings

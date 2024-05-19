@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Going to Kansas City
 date: 2007-06-26 00:00
 categories: mutterings

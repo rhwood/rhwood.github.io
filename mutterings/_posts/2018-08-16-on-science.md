@@ -1,5 +1,4 @@
 ---
-layout: post
 title: On Science...
 date: 2018-08-16 07:27
 categories: Mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gimp on Mac OS X without X11 from MacPorts Redux
 date: 2008-06-09 00:00
 categories: mutterings

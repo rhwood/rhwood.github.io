@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Off the Wall
 date: 2008-08-02 00:00
 categories: mutterings

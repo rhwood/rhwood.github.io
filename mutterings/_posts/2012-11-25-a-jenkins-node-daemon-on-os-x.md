@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A Jenkins Node Daemon on OS X
 date: 2012-11-25 00:00
 categories: mutterings

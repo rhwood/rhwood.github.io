@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Plugging away at GNOME
 date: 2007-04-21 00:00
 categories: mutterings

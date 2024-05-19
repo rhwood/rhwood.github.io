@@ -1,5 +1,4 @@
 ---
-layout: post
 title: No Surprises Here
 date: 2008-04-28 00:00
 categories: Mutterings

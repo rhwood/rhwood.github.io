@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Say No to Cheap Freight
 date: 2007-05-05 00:00
 categories: Mutterings

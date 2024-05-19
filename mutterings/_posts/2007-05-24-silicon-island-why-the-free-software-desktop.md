@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "'Silicon Island: Why the free software desktop year is not yet here, and why it
   doesn''t matter anymore.'"
 date: 2007-05-24 00:00

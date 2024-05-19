@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tintin and the Diamond Smugglers
 date: 2018-08-16 07:53
 categories: mutterings

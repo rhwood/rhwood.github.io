@@ -1,5 +1,4 @@
 ---
-layout: post
 title: What Matters Now
 date: 2009-12-14 00:00
 categories: Mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Changes in GNOME bindings...
 date: 2006-06-03 00:00
 categories: mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My Mac's Back!
 date: 2006-05-27 00:00
 categories: Mutterings

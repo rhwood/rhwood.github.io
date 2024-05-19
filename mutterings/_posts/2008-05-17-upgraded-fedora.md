@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Upgraded Fedora
 date: 2008-05-17 00:00
 categories: mutterings

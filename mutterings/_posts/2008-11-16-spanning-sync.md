@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spanning Sync
 date: 2008-11-16 00:00
 categories: mutterings

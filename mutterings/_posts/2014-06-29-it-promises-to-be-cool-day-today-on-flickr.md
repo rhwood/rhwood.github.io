@@ -1,5 +1,4 @@
 ---
-layout: post
 title: it promises to be cool day today on flickr
 date: 2014-06-29 07:30
 categories: Mutterings

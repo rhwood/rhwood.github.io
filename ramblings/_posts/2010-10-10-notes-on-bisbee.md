@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Notes on Bisbee
 date: 2010-10-10 00:00
 categories: Ramblings

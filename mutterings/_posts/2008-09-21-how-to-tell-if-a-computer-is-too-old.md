@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to tell if a computer is too old
 date: 2008-09-21 00:00
 categories: Mutterings

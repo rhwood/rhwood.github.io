@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Afraid of Risk
 date: 2008-08-09 00:00
 categories: mutterings

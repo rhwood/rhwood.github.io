@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Broken GNOME
 date: 2007-04-14 00:00
 categories: mutterings

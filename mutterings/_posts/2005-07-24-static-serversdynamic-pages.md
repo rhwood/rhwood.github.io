@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Static Servers/Dynamic Pages
 date: 2005-07-24 00:00
 categories: Mutterings

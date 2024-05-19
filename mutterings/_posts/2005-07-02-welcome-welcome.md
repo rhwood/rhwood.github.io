@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Welcome, welcome
 date: 2005-07-02 00:00
 categories: Mutterings

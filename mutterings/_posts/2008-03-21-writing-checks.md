@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Writing Checks
 date: 2008-03-21 00:00
 categories: mutterings

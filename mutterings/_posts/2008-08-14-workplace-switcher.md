@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Workplace Switcher
 date: 2008-08-14 00:00
 categories: mutterings

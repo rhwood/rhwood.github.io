@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I am a Soldier
 date: 2005-07-09 00:00
 categories: Mutterings

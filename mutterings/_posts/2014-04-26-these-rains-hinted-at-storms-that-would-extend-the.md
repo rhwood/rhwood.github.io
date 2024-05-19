@@ -1,5 +1,4 @@
 ---
-layout: post
 title: these rains hinted at storms that would extend the
 date: 2014-04-26 11:28
 categories: Mutterings

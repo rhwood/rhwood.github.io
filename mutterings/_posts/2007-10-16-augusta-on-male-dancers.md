@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Augusta on Male Dancers
 date: 2007-10-16 00:00
 categories: mutterings

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pallet and MacPorts.Framework
 date: 2008-02-21 00:00
 categories: mutterings

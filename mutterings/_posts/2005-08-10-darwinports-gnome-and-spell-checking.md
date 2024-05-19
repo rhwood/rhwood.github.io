@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Darwinports GNOME and spell checking.
 date: 2005-08-10 00:00
 categories: mutterings

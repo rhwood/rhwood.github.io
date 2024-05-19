@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Psychology Design of Everyday Things
 date: 2005-08-10 00:00
 categories: Mutterings

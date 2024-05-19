@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'A letter to an old friend:'
 date: 2009-04-09 00:00
 categories: Mutterings
