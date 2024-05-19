@@ -2,6 +2,8 @@ main:
   - title: Projects
     url: /projects
     children:
+    - title: Amtrak Virginia Ridership
+      url: /amtk-va-ridership
     - title: JSplitButton
       url: /jsplitbutton
     - title: JInputValidator
