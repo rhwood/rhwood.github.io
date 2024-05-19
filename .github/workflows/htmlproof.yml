@@ -40,4 +40,4 @@ jobs:
           egress-policy: audit
 
       - name: Test with HTML-Proofer
-        run: htmlproofer --ignore-status-codes "999" ./_site
+        run: bundle exec htmlproofer --ignore-status-codes "999" ./_site
