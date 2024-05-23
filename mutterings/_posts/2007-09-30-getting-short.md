@@ -1,8 +1,9 @@
 ---
 title: Getting Short
 date: 2007-09-30 00:00
-categories: mutterings
-tags: army, work
+categories: Mutterings
+tags:
+  - army work
 redirect_from:
   - /post/171859550985/getting-short
 ---

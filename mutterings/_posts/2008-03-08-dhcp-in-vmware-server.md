@@ -1,14 +1,18 @@
 ---
 title: DHCP in VMware Server
 date: 2008-03-08 00:00
-categories: mutterings
-tags: contribution, Linux, patch, VMware, work
+categories: Mutterings
+tags:
+  - contribution
+  - Linux
+  - patch
+  - VMware work
 redirect_from:
   - /post/171927033445/dhcp-in-vmware-server
 ---
-I need to run a virtual machine on my [work computer](/blog/2008/03/08/my-laptop-at-work/) that provides [DHCP](http://en.wikipedia.org/wiki/DHCP) services on a host-only network. Unfortunately, [VMWare Server](http://vmware.com/products/server/) on [Linux](http://en.wikipedia.org/wiki/Linux) does not provide any mechanism for turning its DHCP services off.
+I need to run a virtual machine on my [work computer]({% post_url 2008-03-08-my-laptop-at-work %}) that provides [DHCP](https://en.wikipedia.org/wiki/DHCP) services on a host-only network. Unfortunately, [VMWare Server](https://vmware.com/products/server/) on [Linux](https://en.wikipedia.org/wiki/Linux) does not provide any mechanism for turning its DHCP services off.
 
-Luckily, I found an [article](http://vmwire.blogspot.com/2008/01/how-to-disable-host-only-networking.html) that addresses turning DHCP on or off for all host-only networks on the VMWare Server. I commented on that article with a technique for controlling DHCP on a per-network basis for host-only networks. I since have expanded on that with a patch for _/usr/lib/vmware/net-services.sh_ that further refines the controls:
+Luckily, I found an [article](https://vmwire.blogspot.com/2008/01/how-to-disable-host-only-networking.html) that addresses turning DHCP on or off for all host-only networks on the VMWare Server. I commented on that article with a technique for controlling DHCP on a per-network basis for host-only networks. I since have expanded on that with a patch for _/usr/lib/vmware/net-services.sh_ that further refines the controls:
 
 ```
 --- net-services.sh 2008-03-06 11:08:41.000000000 -0500
@@ -38,5 +42,3 @@ Luckily, I found an [article](http://vmwire.blogspot.com/2008/01/how-to-disable-
 
                 eval 'nat="$vmdb_answer_VNET_'"$vHubNr"'_NAT"'
 ```
-
-It is [available for download](http://homepage.mac.com/rhwood/software/vmware/net-services.sh.patch).

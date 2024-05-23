@@ -12,11 +12,11 @@ This code is cleaner and completely separates the operation from the display. He
 ```
 function getFirefox() {
     var buttons = new Array(5);
-    buttons[0] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/trust.gif";
-    buttons[1] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/rediscover.gif";
-    buttons[2] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/take.gif";
-    buttons[3] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/get.gif";
-    buttons[4] = "http://sfx-images.mozilla.org/affiliates/Buttons/88x31/safer.gif";
+    buttons[0] = "https://sfx-images.mozilla.org/affiliates/Buttons/88x31/trust.gif";
+    buttons[1] = "https://sfx-images.mozilla.org/affiliates/Buttons/88x31/rediscover.gif";
+    buttons[2] = "https://sfx-images.mozilla.org/affiliates/Buttons/88x31/take.gif";
+    buttons[3] = "https://sfx-images.mozilla.org/affiliates/Buttons/88x31/get.gif";
+    buttons[4] = "https://sfx-images.mozilla.org/affiliates/Buttons/88x31/safer.gif";
     randomSourceForImageWithId('getFirefox', buttons);
 }
 

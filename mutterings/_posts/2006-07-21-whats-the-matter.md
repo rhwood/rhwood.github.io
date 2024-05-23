@@ -1,7 +1,7 @@
 ---
 title: What's the Matter?
 date: 2006-07-21 00:00
-categories: mutterings
+categories: Mutterings
 tags: family
 redirect_from:
   - /post/171242490605/whats-the-matter

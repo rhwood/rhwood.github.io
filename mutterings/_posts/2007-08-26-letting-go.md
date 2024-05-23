@@ -1,7 +1,7 @@
 ---
 title: Letting Go
 date: 2007-08-26 00:00
-categories: mutterings
+categories: Mutterings
 tags: family
 redirect_from:
   - /post/171859530460/letting-go

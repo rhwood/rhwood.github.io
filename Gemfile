@@ -20,6 +20,7 @@ gem "minimal-mistakes-jekyll", "~> 4.26"
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
+  gem "jekyll-archives"
   gem "jekyll-redirect-from", "~> 0.16.0"
 end
 

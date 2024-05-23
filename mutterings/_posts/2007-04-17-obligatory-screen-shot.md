@@ -1,12 +1,14 @@
 ---
 title: Obligatory Screen Shot
 date: 2007-04-17 00:00
-categories: mutterings
-tags: MacPorts, Pallet
+categories: Mutterings
+tags:
+  - MacPorts
+  - Pallet
 redirect_from:
   - /post/171410181655/obligatory-screen-shot
 ---
-[![](http://shyramblings.files.wordpress.com/2007/04/pallet.jpg?w=244)](http://shyramblings.files.wordpress.com/2007/04/pallet.jpg)
+[![](/assets/images/2007-04-17-pallet.jpg){:width="300px"}](/assets/images/2007-04-17-pallet.jpg)
 Here is the obligatory screen shot of Pallet.
 
 Note some features:

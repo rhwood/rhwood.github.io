@@ -1,8 +1,11 @@
 ---
 title: MacPorts / GNOME Weekly Report
 date: 2006-10-08 00:00
-categories: mutterings
-tags: GNOME, MacPorts, weekly report
+categories: Mutterings
+tags:
+  - GNOME
+  - MacPorts
+  - Weekly Report
 redirect_from:
   - /post/171305196750/macports-gnome-weekly-report
 ---
@@ -14,6 +17,6 @@ I copied a list of every port I had installed and then wiped out my installation
 
 GNOME has released version 2.16.1, so I will be upgrading against packages in that list (or will be as soon as my base install is completed).
 
-There is a new [GNOME-related Tasks](http://svn.macosforge.org/projects/macports/query?status=new&amp;status=assigned&amp;status=reopened&amp;verbose=1&amp;keywords=%7EGNOME&amp;type=task&amp;order=priority) list for MacPorts, although as I am writing this the list is empty.
+There is a new [GNOME-related Tasks](https://trac.macports.org/query?0_port=GNOME&0_port_mode=%7E&0_status=%21closed&col=id&col=summary&col=port&col=status&col=owner&col=type&col=priority&col=time&col=changetime) list for MacPorts, although as I am writing this the list is empty.
 
 Report 3

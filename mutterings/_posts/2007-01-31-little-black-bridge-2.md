@@ -1,8 +1,11 @@
 ---
 title: Little Black Bridge (2)
 date: 2007-01-31 00:00
-categories: mutterings
-tags: BRIO, family, wooden train
+categories: Mutterings
+tags:
+  - BRIO
+  - family
+  - wooden train
 redirect_from:
   - /post/171247935335/little-black-bridge-2
 ---

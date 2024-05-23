@@ -1,8 +1,10 @@
 ---
 title: The State of Gnome on Darwinports
 date: 2006-05-06 00:00
-categories: mutterings
-tags: GNOME, MacPorts
+categories: Mutterings
+tags:
+  - GNOME
+  - MacPorts
 redirect_from:
   - /post/171245516590/the-state-of-gnome-on-darwinports
 ---

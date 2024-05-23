@@ -5,9 +5,9 @@ categories: Mutterings
 redirect_from:
   - /post/171305281255/bug-buddy-works
 ---
-The [GNOME](http://www.gnome.org/) bug reporting tool, __Bug Buddy__ works well. Maybe even too well.
+The [GNOME](https://www.gnome.org/) bug reporting tool, __Bug Buddy__ works well. Maybe even too well.
 
-I submitted a crash report to GNOME that had been submitted by a user to the [MacPorts](http://www.macports.org/) bug database that I could not figure out. [My bug report](http://bugzilla.gnome.org/show_bug.cgi?id=419939) was quickly closed, marked as a duplicate of [another bug](http://bugzilla.gnome.org/show_bug.cgi?id=411791).
+I submitted a crash report to GNOME that had been submitted by a user to the [MacPorts](https://www.macports.org/) bug database that I could not figure out. [My bug report](https://bugzilla.gnome.org/show_bug.cgi?id=419939) was quickly closed, marked as a duplicate of [another bug](https://bugzilla.gnome.org/show_bug.cgi?id=411791).
 
 You can see from the bug reports that this bug is a bug that should be handled by the distributors (MacPorts) of the software, not the developers. Unfortunately, I can find no sign that the bug reporter ever attempted to discuss the problem with the distributors.
 

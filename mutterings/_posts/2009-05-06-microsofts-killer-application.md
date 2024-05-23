@@ -7,7 +7,7 @@ redirect_from:
 ---
 It&rsquo;s well&hellip;it&rsquo;s _Microsoft_.
 
-Frequently I&rsquo;ll hear people refer to the product of a company with a single product (or a single predominant product or range of closely related products) by the company name (for example [Citrix](http://www.citrix.com/) or [VMware](http://www.vmware.com/)). But (mostly non-technical) people also seem to refer to Microsoft products as just being _Microsoft._
+Frequently I&rsquo;ll hear people refer to the product of a company with a single product (or a single predominant product or range of closely related products) by the company name (for example [Citrix](https://www.citrix.com/) or [VMware](https://www.vmware.com/)). But (mostly non-technical) people also seem to refer to Microsoft products as just being _Microsoft._
 
 Not only does Microsoft not have a single product, Microsoft has a range of duplicative products&ndash;products which perform the same task but which do so in inconsistent and sometimes even incompatible manners: Outlook and Outlook Express/Windows Live Mail (mutually exclusive support for differing mail servers or services), Office and Works (differing file formats for the same task), Outlook and Windows Address Book/Windows Live Contacts.
 

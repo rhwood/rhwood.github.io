@@ -1,8 +1,10 @@
 ---
 title: Nasty Nasty Scare
 date: 2007-05-20 00:00
-categories: mutterings
-tags: stress, work
+categories: Mutterings
+tags:
+  - stress
+  - work
 redirect_from:
   - /post/171655227105/nasty-nasty-scare
 ---

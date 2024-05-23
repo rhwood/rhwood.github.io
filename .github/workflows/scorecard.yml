@@ -57,7 +57,8 @@ jobs:
           #   - Allows the repository to include the Scorecard badge.
           #   - See https://github.com/ossf/scorecard-action#publishing-results.
           # For private repositories:
-          #   - `publish_results` will always be set to `false`, regardless
+          #   - `publish_results` will always be set to `false`
+  -  regardless
           #     of the value entered here.
           publish_results: true
 

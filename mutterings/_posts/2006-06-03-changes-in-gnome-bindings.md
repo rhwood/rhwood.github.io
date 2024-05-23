@@ -1,8 +1,10 @@
 ---
 title: Changes in GNOME bindings...
 date: 2006-06-03 00:00
-categories: mutterings
-tags: GNOME, MacPorts
+categories: Mutterings
+tags:
+  - GNOME
+  - MacPorts
 redirect_from:
   - /post/171246743090/changes-in-gnome-bindings
 ---
