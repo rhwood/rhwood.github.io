@@ -1,10 +1,11 @@
 name: CI Tests
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab
+  pull_request:
+    branches: [ "main" ]
+    # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -29,5 +30,5 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Test with HTML-Proofer
+      - name: Test links
         run: bundle exec htmlproofer --ignore-status-codes "302,403,999" ./_site
