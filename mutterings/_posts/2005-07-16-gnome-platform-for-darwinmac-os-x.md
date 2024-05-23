@@ -1,12 +1,12 @@
 ---
 title: GNOME Platform for Darwin/Mac OS X
 date: 2005-07-16 00:00
-categories: mutterings
+categories: Mutterings
 tags: MacPorts
 redirect_from:
   - /post/170829899425/gnome-platform-for-darwinmac-os-x
 ---
-I have [posted](http://homepage.mac.com/rhwood/gnome/darwinports.html) the current status of the various packages provided by [DarwinPorts](http://darwinports.opendarwin.org) for [Mac OS X](http://www.apple.com/macosx) and [Darwin](http://developer.apple.com/darwin) that make up the [GNOME](http://www.gnome.org) platform, bindings, and desktop.
+I have [posted](https://trac.macports.org/wiki/GNOMEPackageStatus) the current status of the various packages provided by [DarwinPorts](https://macports.org) for [Mac OS X](https://www.apple.com/macosx) and [Darwin](https://en.wikipedia.org/wiki/Darwin_%28operating_system%29) that make up the [GNOME](https://www.gnome.org) platform, bindings, and desktop.
 
 Needless to say, the platform is all but complete, if slightly dated; the bindings are complete for C++ and Python while I am not yet tracking the Perl or Java bindings, and there are large gaps in the desktop.
 

@@ -1,8 +1,10 @@
 ---
 title: Stupid Little Facebook Applications
 date: 2008-06-06 00:00
-categories: mutterings
-tags: addiction, Facebook, stupidity
+categories: Mutterings
+tags:
+  - addiction
+  - Facebook stupidity
 redirect_from:
   - /post/171927850695/stupid-little-facebook-applications
 ---

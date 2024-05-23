@@ -5,7 +5,7 @@ categories: Mutterings
 redirect_from:
   - /post/170794882300/using-drivel
 ---
-Using [Drivel](http://www.dropline.net/drivel/).
+Using [Drivel](https://www.dropline.net/drivel/).
 
 I think the only real advantage it has over the standard interface for my journal is that it can be used offline and synced up later. That is, if it lives up to its advertizing on my slightly broken installation.
 

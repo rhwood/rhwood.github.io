@@ -1,8 +1,12 @@
 ---
 title: Afraid of Risk
 date: 2008-08-09 00:00
-categories: mutterings
-tags: family, fear, life, openness, risk
+categories: Mutterings
+tags:
+  - family
+  - fear
+  - life
+  - openness risk
 redirect_from:
   - /post/171927915530/afraid-of-risk
 ---

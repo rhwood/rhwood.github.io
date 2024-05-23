@@ -3,10 +3,10 @@ main:
     url: /projects
     children:
     - title: Amtrak Virginia Ridership
-      url: /amtk-va-ridership
+      url: https://rhwood.github.io/amtk-va-ridership/
     - title: JSplitButton
-      url: /jsplitbutton
+      url: https://rhwood.github.io/jsplitbutton/
     - title: JInputValidator
-      url: /jinputvalidator
+      url: https://rhwood.github.io/jinputvalidator/
   - title: About
     url: /about

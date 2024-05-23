@@ -1,7 +1,7 @@
 ---
 title: Riding to the Park
 date: 2006-08-21 00:00
-categories: mutterings
+categories: Mutterings
 tags: family
 redirect_from:
   - /post/171246917485/riding-to-the-park

@@ -1,8 +1,12 @@
 ---
 title: Pallet and MacPorts.Framework
 date: 2008-02-21 00:00
-categories: mutterings
-tags: Cocoa, MacPorts, MacPorts.framework, Pallet, Objective-C
+categories: Mutterings
+tags:
+  - Cocoa
+  - MacPorts
+  - MacPorts.framework
+  - Pallet Objective-C
 redirect_from:
   - /post/171859744090/pallet-and-macportsframework
 ---

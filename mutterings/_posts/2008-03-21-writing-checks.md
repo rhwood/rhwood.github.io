@@ -1,8 +1,13 @@
 ---
 title: Writing Checks
 date: 2008-03-21 00:00
-categories: mutterings
-tags: banking, checks, credit, debit, finances, satisfaction
+categories: Mutterings
+tags:
+  - banking
+  - checks
+  - credit
+  - debit
+  - finances satisfaction
 redirect_from:
   - /post/171927073240/writing-checks
 ---

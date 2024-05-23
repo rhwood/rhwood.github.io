@@ -1,8 +1,10 @@
 ---
 title: Augusta on Male Dancers
 date: 2007-10-16 00:00
-categories: mutterings
-tags: childhood, family, randomness
+categories: Mutterings
+tags:
+  - childhood
+  - family randomness
 redirect_from:
   - /post/171859562735/augusta-on-male-dancers
 ---

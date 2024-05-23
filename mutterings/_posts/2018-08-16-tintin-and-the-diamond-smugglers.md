@@ -1,8 +1,10 @@
 ---
 title: Tintin and the Diamond Smugglers
 date: 2018-08-16 07:53
-categories: mutterings
-tags: crime, Nickelodeon, Tintin
+categories: Mutterings
+tags:
+  - crime
+  - Nickelodeon Tintin
 redirect_from:
   - /post/177056396615/tintin-and-the-diamond-smugglers
 ---

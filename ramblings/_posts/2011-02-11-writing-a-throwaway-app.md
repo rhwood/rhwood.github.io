@@ -3,9 +3,8 @@ title: Writing a Throwaway App
 date: 2011-02-11 00:00
 categories: Ramblings
 ---
-# Front Matter
 
-I wrote a simple app for the iPhone while I was preparing to deploy called [Doing Time](http://axsw.co/doing-time). These are some notes and experiences during the process.
+I wrote a simple app for the iPhone while I was preparing to deploy called [Doing Time](/axsw/doing-time). These are some notes and experiences during the process.
 
 # Writing a Throwaway App
 
@@ -21,4 +20,4 @@ Now I am testing version 1.1 of the little throw-away app that I expected never 
 
 I guess throw away apps need to be perfect the first time, or they just can’t be thrown away.
 
-[Doing Time](http://axsw.co/doing-time) is published by [Alexandria Software](http://www.alexandriasoftware.com/)
+[Doing Time](/axsw/doing-time) is published by [Alexandria Software](/axsw/)

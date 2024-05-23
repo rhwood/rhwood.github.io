@@ -5,7 +5,7 @@ categories: Mutterings
 redirect_from:
   - /post/171927085510/official-gmail-blog-9-reasons-to-archive
 ---
-On the [Official Gmail Blog](http://gmailblog.blogspot.com/) there is an article [9 reasons to archive](http://gmailblog.blogspot.com/2008/04/9-reasons-to-archive.html).
+On the [Official Gmail Blog](https://gmailblog.blogspot.com/) there is an article [9 reasons to archive](https://gmailblog.blogspot.com/2008/04/9-reasons-to-archive.html).
 
 Ever since Mail.app 2.0 was released on Tiger and since I have been using Gmail, I have been leaving messages in my Inbox and using search filters to keep things clean.
 

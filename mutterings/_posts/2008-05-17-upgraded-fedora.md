@@ -1,8 +1,10 @@
 ---
 title: Upgraded Fedora
 date: 2008-05-17 00:00
-categories: mutterings
-tags: Fedora, upgrade, work
+categories: Mutterings
+tags:
+  - Fedora
+  - upgrade work
 redirect_from:
   - /post/171927175150/upgraded-fedora
 ---

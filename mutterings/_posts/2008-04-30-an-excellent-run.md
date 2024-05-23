@@ -1,8 +1,9 @@
 ---
 title: An excellent run
 date: 2008-04-30 00:00
-categories: mutterings
-tags: mornings, running
+categories: Mutterings
+tags:
+  - mornings running
 redirect_from:
   - /post/171927104885/an-excellent-run
 ---

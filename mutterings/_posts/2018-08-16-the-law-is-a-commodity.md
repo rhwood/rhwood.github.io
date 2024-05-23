@@ -1,8 +1,11 @@
 ---
 title: The Law is a Commodity
 date: 2018-08-16 08:08
-categories: mutterings
-tags: Baroque Cycle, capitalism, commodities, law
+categories: Mutterings
+tags:
+  - Baroque Cycle
+  - capitalism
+  - commodities law
 redirect_from:
   - /post/177056715100/the-law-is-a-commodity
 ---

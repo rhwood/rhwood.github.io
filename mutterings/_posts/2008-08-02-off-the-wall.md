@@ -1,12 +1,12 @@
 ---
 title: Off the Wall
 date: 2008-08-02 00:00
-categories: mutterings
-tags: iTunes, music
+categories: Mutterings
+tags:
+  - iTunes music
 redirect_from:
   - /post/171927903480/off-the-wall
 ---
-[![](http://clickserve.cc-dt.com/link/banner?lid=41000000025893202)](http://music.barnesandnoble.com/Off-the-Wall/Michael-Jackson/e/074646607022/?itm=1&amp;afsrc=1&amp;lkid=J25893202&amp;pubid=K117976&amp;byo=1) I recently heard a song on the radio that made me realize that my music collection was missing a critical album: Michael Jackson&rsquo;s __Off the Wall__. It&rsquo;s not my first iTunes purchase, but it&rsquo;s my first in a long time. I also spent a few hours simply feeding CDs to my computer to add to my iTunes library.
-[](http://click.linksynergy.com/fs-bin/stat?id=alo5c2JFv50&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fphobos.apple.com%252FWebObjects%252FMZStore.woa%252Fwa%252FviewAlbum%253Fi%253D186166433%2526id%253D186166282%2526s%253D143441%2526partnerId%253D30)
+[![](https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/b0/7f/ccb07f0d-1530-00b0-244a-6332daffc2b9/dj.xnuhftrz.jpg/592x592bb.webp)](https://music.apple.com/us/album/off-the-wall/186166282)
 
-[![Michael Jackson - Off the Wall](http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes61x15dark.gif)](http://click.linksynergy.com/fs-bin/stat?id=alo5c2JFv50&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fphobos.apple.com%252FWebObjects%252FMZStore.woa%252Fwa%252FviewAlbum%253Fi%253D186166433%2526id%253D186166282%2526s%253D143441%2526partnerId%253D30)
+I recently heard a song on the radio that made me realize that my music collection was missing a critical album: Michael Jackson&rsquo;s __Off the Wall__. It&rsquo;s not my first iTunes purchase, but it&rsquo;s my first in a long time. I also spent a few hours simply feeding CDs to my computer to add to my iTunes library.

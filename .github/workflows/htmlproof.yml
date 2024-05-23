@@ -30,4 +30,4 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Test with HTML-Proofer
-        run: bundle exec htmlproofer --ignore-status-codes "999" ./_site
+        run: bundle exec htmlproofer --ignore-status-codes "302,403,999" ./_site

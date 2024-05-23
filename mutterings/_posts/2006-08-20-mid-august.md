@@ -1,8 +1,12 @@
 ---
 title: Mid-August
 date: 2006-08-20 00:00
-categories: mutterings
-tags: MacPorts, PHP, SharePoint, work
+categories: Mutterings
+tags:
+  - MacPorts
+  - PHP
+  - SharePoint
+  - work
 redirect_from:
   - /post/171246868960/mid-august
 ---

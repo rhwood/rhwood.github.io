@@ -3,7 +3,6 @@ title: Reflections on the Lake
 date: 2011-03-10 00:00
 categories: Ramblings
 ---
-# Front matter
 
 This is a journal of my time in Afghanistan, started a month after I arrived at Bagram Air Base in Parwan.
 

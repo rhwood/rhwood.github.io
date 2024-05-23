@@ -1,8 +1,10 @@
 ---
 title: A Conversation with Marc
 date: 2006-04-30 00:00
-categories: mutterings
-tags: GNOME, MacPorts
+categories: Mutterings
+tags:
+  - GNOME
+  - MacPorts
 redirect_from:
   - /post/171242330555/a-conversation-with-marc
 ---
@@ -26,6 +28,6 @@ AFAIK Aqua can not be completely replaced by Gnome on Mac OS X 10.4. I know it c
 
 You can however, use Metacity as the window manager and use X11 in full screen mode. A key combo would allow you to switch back and forth between X11 and Aqua in that case. This is how I run Gnome on 1 of my laptops. Many things are missing from the complete Gnome installation&ndash;they simply have not been successfully ported into Mac OS X yet, so you will have to drop back into Aqua to complete various tasks.
 
-If you use Gnome from DarwinPorts, see [http://wiki.opendarwin.org/index.php/DarwinPorts:Gnome](http://wiki.opendarwin.org/index.php/DarwinPorts:Gnome) for details. Running Gnome from Fink should be fairly similar.
+If you use Gnome from DarwinPorts, see [https://trac.macports.org/wiki/GNOME](https://trac.macports.org/wiki/GNOME) for details. Running Gnome from Fink should be fairly similar.
 
 I happen to use the DarwinPorts packages for my Gnome.
