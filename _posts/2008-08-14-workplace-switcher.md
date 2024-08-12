@@ -8,7 +8,7 @@ redirect_from:
 ---
 Why does the commercial application display its icon in the GNOME Workspace Switcher (even though it is not full screen), but the open source applications don&rsquo;t?
 
-[![](https://shyramblings.files.wordpress.com/2008/08/screenshot.png?w=109)](https://shyramblings.files.wordpress.com/2008/08/screenshot.png)
+[![](/assets/2008-08-14-screenshot.png){:width="109px"}](/assets/2008-08-14-screenshot.png)
 
 The applications open in the Switcher are from left-to-right:
 
