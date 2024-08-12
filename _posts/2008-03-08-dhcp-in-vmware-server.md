@@ -10,7 +10,7 @@ tags:
 redirect_from:
   - /post/171927033445/dhcp-in-vmware-server
 ---
-I need to run a virtual machine on my [work computer]({% post_url 2008-03-08-my-laptop-at-work %}) that provides [DHCP](https://en.wikipedia.org/wiki/DHCP) services on a host-only network. Unfortunately, [VMWare Server](https://vmware.com/products/server/) on [Linux](https://en.wikipedia.org/wiki/Linux) does not provide any mechanism for turning its DHCP services off.
+I need to run a virtual machine on my [work computer]({% post_url 2008-03-08-my-laptop-at-work %}) that provides [DHCP](https://en.wikipedia.org/wiki/DHCP) services on a host-only network. Unfortunately, [VMWare Server](https://en.wikipedia.org/wiki/VMware_Server) on [Linux](https://en.wikipedia.org/wiki/Linux) does not provide any mechanism for turning its DHCP services off.
 
 Luckily, I found an [article](https://vmwire.blogspot.com/2008/01/how-to-disable-host-only-networking.html) that addresses turning DHCP on or off for all host-only networks on the VMWare Server. I commented on that article with a technique for controlling DHCP on a per-network basis for host-only networks. I since have expanded on that with a patch for _/usr/lib/vmware/net-services.sh_ that further refines the controls:
 

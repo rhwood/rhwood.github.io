@@ -7,7 +7,7 @@ tags:
 redirect_from:
   - /post/171927184020/transmission-goodness
 ---
-I used [Transmission](https://www.transmissionbt.com/) on my iMac to download [Fedora](https://www.fedoraproject.org/) so I could install it on my work computer and on an older PowerBook I have. I have been serving it up for the last 36 hours or so as well. Here&rsquo;s a screenshot: [![](https://shyramblings.files.wordpress.com/2008/05/transmission1.png?w=300)](https://shyramblings.files.wordpress.com/2008/05/transmission1.png)
+I used [Transmission](https://www.transmissionbt.com/) on my iMac to download [Fedora](https://www.fedoraproject.org/) so I could install it on my work computer and on an older PowerBook I have. I have been serving it up for the last 36 hours or so as well. Here&rsquo;s a screenshot: [![](/assets/2008-05-29-transmission.png){:width="300px"}](/assets/2008-05-29-transmission.png)
 
 At least I pushed out more data than I consumed. Its a minor contribution, but  a contribution none-the-less.
 
