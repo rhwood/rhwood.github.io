@@ -1,0 +1,6 @@
+annotations:
+  - checks:
+    - contributors
+    - code-review
+    reasons:
+    - reason: not-applicable # personal website
