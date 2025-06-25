@@ -7,9 +7,9 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.4.1"
+gem "jekyll", "4.4.1"
 # Use the Minimal Mistakes them
-gem "minimal-mistakes-jekyll", "~> 4.27"
+gem "minimal-mistakes-jekyll", "4.27.1"
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
 #   gem "jekyll-sitemap"
@@ -20,8 +20,8 @@ gem "minimal-mistakes-jekyll", "~> 4.27"
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
-  gem "jekyll-archives"
-  gem "jekyll-redirect-from", "~> 0.16.0"
+  gem "jekyll-archives", "2.3.0"
+  gem "jekyll-redirect-from", "0.16.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,11 +32,12 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+gem "http_parser.rb", "0.6.0", :platforms => [:jruby]
 
 # HTML quality checking
-gem "html-proofer"
+gem "html-proofer", "5.0.10"
+gem "benchmark", "0.4.1"
