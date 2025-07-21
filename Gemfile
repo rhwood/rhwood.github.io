@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "4.4.1"
 # Use the Minimal Mistakes them
-gem "minimal-mistakes-jekyll", "4.27.1"
+gem "minimal-mistakes-jekyll", "4.27.2"
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
 #   gem "jekyll-sitemap"
