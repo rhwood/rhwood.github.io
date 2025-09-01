@@ -12,7 +12,7 @@ redirect_from:
 ---
 [![](/assets/2007-11-20-gimp.png){:width="300px"}](/assets/2007-11-20-gimp.png)
 
-A screenshot of [Gimp](https://www.gimp.org/) running on [Mac OS X](https://www.apple.com/macosx) (version 10.4) without [X11](https://en.wikipedia.org/wiki/X11) and installed using [MacPorts](https://www.macports.org/)
+A screenshot of [Gimp](https://www.gimp.org/) running on [Mac OS X](https://www.apple.com/macos) (version 10.4) without [X11](https://en.wikipedia.org/wiki/X11) and installed using [MacPorts](https://www.macports.org/)
 
 ## Build It!
 
