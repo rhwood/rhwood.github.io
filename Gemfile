@@ -40,4 +40,4 @@ gem "http_parser.rb", "0.6.0", :platforms => [:jruby]
 
 # HTML quality checking
 gem "html-proofer", "5.0.10"
-gem "benchmark", "0.4.1"
+gem "benchmark", "0.5.0"
