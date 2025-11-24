@@ -9,7 +9,7 @@ tags:
 redirect_from:
   - /post/171305262585/macports-gnome-report
 ---
-I managed to, within 3 days of [GNOME](https://www.gnome.org) releasing version [2.18.0](https://help.gnome.org/misc/release-notes/2.18), get the entire current GNOME Platform into [MacPorts](https://www.macports.org). It actually took only a few hours work, and a day&rsquo;s waiting on compilers to get done.
+I managed to, within 3 days of [GNOME](https://www.gnome.org) releasing version [2.18.0](https://web.archive.org/web/20250124184307/https://help.gnome.org/misc/release-notes/2.18/), get the entire current GNOME Platform into [MacPorts](https://www.macports.org). It actually took only a few hours work, and a day&rsquo;s waiting on compilers to get done.
 
 I hope that getting the GNOME desktop into MacPorts is as painless as well.
 
