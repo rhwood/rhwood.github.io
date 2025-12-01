@@ -12,7 +12,7 @@ After [writing about some scripts I wrote]({% post_url 2012-11-25-a-jenkins-node
 If I didn&rsquo;t travel for work, I could have simply run a Jenkins server at home; however, since I travel, I could either:
 
 1. get a fixed IP address for my home network and run Jenkins on my iMac
-2. run Jenkins on a Mac mini from [macminicolo.net](https://www.macminicolo.net) or a similar provider
+2. run Jenkins on a Mac mini from [macminicolo.net](https://web.archive.org/web/20160406111552/https://www.macminicolo.net/) or a similar provider
 3. run a Jenkins server on a Linode and run a Jenkins slave on my iMac
 
 I choose the third option, but quickly discovered that I would need to either:
