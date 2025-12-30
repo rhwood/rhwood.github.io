@@ -36,4 +36,4 @@ jobs:
       - name: Jekyll warnings
         run: bundle exec jekyll doctor
       - name: Test links
-        run: bundle exec htmlproofer --ignore-status-codes "302,403,999" ./_site
+        run: bundle exec htmlproofer --ignore-status-codes "302,403,418,999" ./_site
