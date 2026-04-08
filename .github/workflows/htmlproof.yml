@@ -36,4 +36,6 @@ jobs:
       - name: Jekyll warnings
         run: bundle exec jekyll doctor
       - name: Test links
-        run: bundle exec htmlproofer --ignore-status-codes "302,403,418,999" ./_site
+        # Ignore 302 (redirects), 403 (forbidden), 406 (not acceptable), 418 (I'm a teapot), and 999 (LinkedIn's "bot detected" status code)
+        # Manual testing should not ignore these status codes, but for automated testing, we want to avoid false positives from sites that block bots or have temporary redirects.
+        run: bundle exec htmlproofer --ignore-status-codes "302,403,406,418,999" ./_site
