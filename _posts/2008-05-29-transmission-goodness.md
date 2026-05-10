@@ -7,8 +7,8 @@ tags:
 redirect_from:
   - /post/171927184020/transmission-goodness
 ---
-I used [Transmission](https://www.transmissionbt.com/) on my iMac to download [Fedora](https://www.fedoraproject.org/) so I could install it on my work computer and on an older PowerBook I have. I have been serving it up for the last 36 hours or so as well. Here&rsquo;s a screenshot: [![](/assets/2008-05-29-transmission.png){:width="300px"}](/assets/2008-05-29-transmission.png)
+I used [Transmission](https://www.transmissionbt.com/) on my iMac to download [Fedora](https://fedoraproject.org/) so I could install it on my work computer and on an older PowerBook I have. I have been serving it up for the last 36 hours or so as well. Here&rsquo;s a screenshot: [![](/assets/2008-05-29-transmission.png){:width="300px"}](/assets/2008-05-29-transmission.png)
 
-At least I pushed out more data than I consumed. Its a minor contribution, but  a contribution none-the-less.
+At least I pushed out more data than I consumed. Its a minor contribution, but a contribution none-the-less.
 
 I will probably stop the push when Mac OS X 10.5.3 finishes downloading and requires me to restart the iMac, as this will allow me to bring the machine down at night to save power, and to aggressively use other power saving features and timeouts.
