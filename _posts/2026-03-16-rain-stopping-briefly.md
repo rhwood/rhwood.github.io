@@ -5,6 +5,6 @@ categories: Mutterings
 tags:
   - Haiku
 ---
-Rain stopping briefly
-Short break from cold winter storm
+Rain stopping briefly\
+Short break from cold winter storm\
 Early spring paused
