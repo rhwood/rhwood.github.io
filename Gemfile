@@ -21,7 +21,7 @@ gem "minimal-mistakes-jekyll", "4.28.1"
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
   gem "jekyll-archives", "2.3.0"
-  gem "jekyll-redirect-from", "0.16.0"
+  gem "jekyll-redirect-from", "0.17.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
