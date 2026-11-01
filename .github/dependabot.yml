@@ -4,11 +4,21 @@ updates:
   directory: "/"
   schedule:
     interval: monthly
+  cooldown:
+    default-days: 7
   groups:
-    codeql:
+    monthly-action-updates:
+      applies-to: version-updates
       patterns:
-        - "github/codeql-action/*"
+        - "*"
 - package-ecosystem: bundler
   directory: /
   schedule:
-    interval: weekly
+    interval: monthly
+  cooldown:
+    default-days: 7
+  groups:
+    monthly-bundler-updates:
+      applies-to: version-updates
+      patterns:
+        - "*"
