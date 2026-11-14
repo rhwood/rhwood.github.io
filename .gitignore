@@ -13,3 +13,6 @@ vendor
 
 # macOS Artifacts
 .DS_Store
+
+# Obsidian Artifacts
+.obsidian
