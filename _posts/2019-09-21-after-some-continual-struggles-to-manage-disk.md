@@ -3,8 +3,9 @@ title: Time Machine and Space
 date: 2019-09-21 09:47
 categories: Mutterings
 tags:
-  - disk space
+  - disk_space
   - macOS
+  - Time_Machine
 redirect_from:
   - /post/187858692205/after-some-continual-struggles-to-manage-disk
 ---
