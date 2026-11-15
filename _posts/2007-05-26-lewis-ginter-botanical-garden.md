@@ -3,7 +3,8 @@ title: Lewis Ginter Botanical Garden
 date: 2007-05-26 00:00
 categories: Mutterings
 tags:
-  - family gardening
+  - family
+  - gardening
 redirect_from:
   - /post/171753782425/lewis-ginter-botanical-garden
 ---

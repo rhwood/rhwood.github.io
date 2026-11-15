@@ -4,7 +4,7 @@ date: 2007-10-16 00:00
 categories: Mutterings
 tags:
   - childhood
-  - family randomness
+  - randomness
 redirect_from:
   - /post/171859562735/augusta-on-male-dancers
 ---
