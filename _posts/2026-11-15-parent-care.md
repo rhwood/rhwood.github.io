@@ -3,9 +3,9 @@ title: Parent Care Part 1
 date: 2026-11-15 00:00
 categories: Ramblings
 tags:
-  - Family
-  - Medical
-  - Travel
+  - family
+  - medical
+  - travel
 ---
 
 ## February

@@ -6,7 +6,7 @@ tags:
   - Alexandria
   - Chicago
   - Kansas City
-  - family photos
+  - photos
 redirect_from:
   - /post/171790732615/habits-bad-or-good
 ---
